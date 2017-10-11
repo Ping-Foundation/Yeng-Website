@@ -18,7 +18,7 @@ body a{
 }
 /*-----start-header----*/
 .header{
-	background: #2ABF5E;
+	background: #1F958E;
 }
 .logo{
 	float: left;
@@ -36,7 +36,7 @@ body a{
 /*----navbar-nav----*/
 .top-header{
 	padding: 0.5em 0em;
-	background: #2ABF5E;
+	background: #1F958E;
 	position: relative;
 	width: 77%;
 	margin: 0 auto;
@@ -51,9 +51,19 @@ body a{
 	font-weight: 700;
 	font-family: 'Open Sans', sans-serif;
 }
-.top-nav ul li.active a,
+
 .top-nav ul li a:hover{
-	color:#2F727A;
+	color:#2ABF5E;
+}
+.top-nav ul li.active a{
+color:#d7ff0f;
+
+}
+.logo_img{
+	width: 143px;
+	height: 51px;
+
+
 }
 .logo a{
 	display:block;
@@ -722,7 +732,7 @@ p.comment-form-author {
 @media(max-width:1280px){
 	.top-nav ul li a {
 	padding: 0px 0.2em;
-	color:#2ABF5E;
+	color:#ffffff;
 	}
 	.logo {
 	margin-top: 1.2em;
