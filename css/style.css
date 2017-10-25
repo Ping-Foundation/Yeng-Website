@@ -1465,4 +1465,13 @@ p.comment-form-author {
 		display: none;
 	}
 }
-	
+
+.about_tile{
+	width: 270px;
+	height: 270px;
+	background: #7CEA93  ;
+	margin-left: 85px;
+	box-shadow: 10px 15px 5px #E5F0E7;
+	color: #fff;
+	padding-top: 60px;
+}
