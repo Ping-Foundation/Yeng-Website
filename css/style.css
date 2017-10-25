@@ -110,6 +110,7 @@ nav a#pull {
 @media screen and (max-width: 768px) {
 	nav { 
   		height: auto;
+
   		float:none;
   	}
   	nav ul {
@@ -1290,6 +1291,9 @@ p.comment-form-author {
 	}
 }
 @media(max-width:320px){
+	.about_tile{
+		margin-left: 0;
+	}
 	.top-nav ul li a {
 	padding: 0px 0.2em;
 	font-size: 15px;
