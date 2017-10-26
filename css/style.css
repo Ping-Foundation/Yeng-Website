@@ -1519,4 +1519,7 @@ p.comment-form-author {
 		width: 25%;
 		margin-left: 85px;
 	}
+	.Feature h2{
+		margin-left: 0;
+	}
 }
