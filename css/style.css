@@ -175,6 +175,17 @@ nav a#pull {
 		color: #2C3E50;
 		padding: 0em 0;
 	}
+	/*.about_tile{
+		margin-left:0;
+		width: 100%;
+	}*/
+
+}
+@media only screen and (min-width : 768px){
+	.about_tile{
+		width: 25%;
+		margin-left: 85px;
+	}
 }
 /*Smartphone*/
 @media only screen and (max-width : 320px) {
@@ -189,6 +200,7 @@ nav a#pull {
 	nav li a {
 		border-bottom: 1px solid #EEE;
 	}
+
 }
 /*----- banner -----*/
 .banner{
@@ -1473,10 +1485,11 @@ p.comment-form-author {
 }
 
 .about_tile{
-	width: 270px;
+
 	height: 270px;
 	background: #7CEA93  ;
-	margin-left: 85px;
+	width: 70%;
+	margin-left: 15px;
 	box-shadow: 10px 15px 5px #E5F0E7;
 	color: #fff;
 	padding-top: 60px;
@@ -1491,8 +1504,8 @@ p.comment-form-author {
 	margin-top: -60px;
 }
 .features li{
-	width: 400px;
-	height: 40px;
+	width: 100%;
+	height: auto;
 	background: #42AB55;
 	padding-left: 15px;
 	line-height: 2;
