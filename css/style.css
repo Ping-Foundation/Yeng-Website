@@ -110,6 +110,7 @@ nav a#pull {
 @media screen and (max-width: 768px) {
 	nav { 
   		height: auto;
+
   		float:none;
   	}
   	nav ul {
@@ -830,6 +831,7 @@ p.comment-form-author {
 	}
 	.Feature {
 	width: 90%;
+		margin-bottom:70px;
 	}
 	.demo-text h4 {
 	font-size: 1.4em;
@@ -1289,6 +1291,9 @@ p.comment-form-author {
 	}
 }
 @media(max-width:320px){
+	.about_tile{
+		margin-left: 0;
+	}
 	.top-nav ul li a {
 	padding: 0px 0.2em;
 	font-size: 15px;
@@ -1325,6 +1330,7 @@ p.comment-form-author {
 	}
 	#feature {
 	padding: 1em 0 0em 0em;
+
 	}
 	.gallery-head p {
 	margin: 0.6em auto;
@@ -1474,4 +1480,25 @@ p.comment-form-author {
 	box-shadow: 10px 15px 5px #E5F0E7;
 	color: #fff;
 	padding-top: 60px;
+}
+.Feature-content{
+	color:#fff;
+
+
+}
+.Feature{
+	margin-bottom: 70px;
+	margin-top: -60px;
+}
+.features li{
+	width: 400px;
+	height: 40px;
+	background: #42AB55;
+	padding-left: 15px;
+	line-height: 2;
+
+}
+.Feature h2{
+	border-bottom: solid;
+	display: inline;
 }
