@@ -215,7 +215,7 @@ nav a#pull {
 .banner{
 	background:url(../images/bg.jpg) no-repeat 0px 0px;
 	background-size:cover;
-	min-height: 700px;
+	min-height: 595px;
 	position:relative;
 }
 .banner h1{
@@ -235,19 +235,19 @@ nav a#pull {
 	width:100%;
 }
 .banner-text {
-	margin-top: 2em;
+	margin-top: 7em;
 }
 .banner-info{
 	position: absolute;
-	top: 13%;
-	left: 13%;
+	top: 4%;
+	left: -2%;
 	width: 73%;
 }
 .appp {
 text-align: right;
 }
 .appp img {
-	width: 54%;
+	width: 71%;
 }
 /*--about--*/
 .about{
@@ -887,7 +887,8 @@ p.comment-form-author {
 	text-align: left;
 	}
 	.appp img {
-	width: 29%;
+	width: 44%;
+		margin-left: -10%;
 	}
 	.banner-text {
 	text-align: right;
