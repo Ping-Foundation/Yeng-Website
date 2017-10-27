@@ -131,6 +131,14 @@ nav a#pull {
 	  	text-align: left;
 	  	width: 100%;
   	}
+	.join-btn{
+	font-size: 10px;
+		height: 28px;
+	}
+	.team-tile h3{
+		font-size: 15px;
+	}
+
 }
 /*Styles for screen 515px and lower*/
 @media only screen and (max-width : 768px) {
@@ -176,10 +184,12 @@ nav a#pull {
 		color: #2C3E50;
 		padding: 0em 0;
 	}
-	/*.about_tile{
-		margin-left:0;
-		width: 100%;
-	}*/
+	.team-tile{
+		height: 100px;
+
+	}
+
+
 
 }
 
@@ -195,6 +205,9 @@ nav a#pull {
 	}
 	nav li a {
 		border-bottom: 1px solid #EEE;
+	}
+	.join-btn{
+		margin-top: 0;
 	}
 
 }
@@ -1518,8 +1531,51 @@ p.comment-form-author {
 	.about_tile{
 		width: 25%;
 		margin-left: 85px;
+		padding-top: 30px;
 	}
 	.Feature h2{
 		margin-left: 0;
 	}
+	.team-tile{
+		height: 180px;
+	}
+	.join-btn{
+		margin-top: 10px;
+		height: 37px;
+
+
+	}
+	.design{
+		margin-top: 74px;
+	}
+
+}
+.team-tile{
+	background: #2ABF5E;
+	text-align: center;
+	width: 80%;
+    margin-top: 10px;
+	color: #fff;
+
+
+}
+.join-btn{
+	border-color: #fff;
+	padding-top: initial;
+	font-weight: 700;
+	margin-top: auto;
+	width: inherit;
+
+}
+
+.design{
+	margin-top: -2px;
+}
+.teams-h{
+	height: 70%;
+	margin-top:0;
+	padding-top: 15px;
+}
+.join-btn:hover{
+	border-color: #1B242F;
 }
