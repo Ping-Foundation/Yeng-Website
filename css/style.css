@@ -9,6 +9,7 @@ html, body{
     font-size: 100%;
   	 background: #FFf;
 }
+
 body a{
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
@@ -126,6 +127,7 @@ nav a#pull {
   	nav li a {
 		border-bottom: 1px solid #eee;
 		margin: 0px -13px;
+
 	}
   	nav a {
 	  	text-align: left;
@@ -1580,3 +1582,9 @@ p.comment-form-author {
 .join-btn:hover{
 	border-color: #1B242F;
 }
+@media screen and (max-width: 768px) {
+	.top-nav ul li a{
+		color: #2C3E50;
+	}
+}
+
