@@ -20,6 +20,9 @@ body a{
 /*-----start-header----*/
 .header{
 	background: #1F958E;
+	position: fixed;
+	z-index: 5;
+	width: 100%;
 }
 
 .logo{
