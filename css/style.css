@@ -452,7 +452,7 @@ div#screenshot{
 	text-align: center;
 	font-size: 2.7em;
 	text-transform: uppercase;
-	color: #1F958E;
+	color: #fff;
 	font-weight: 600;
 	margin-bottom:1.2em;
 }
@@ -838,7 +838,7 @@ p.comment-form-author {
 	font-size: 2.4em;
 	}
 	#feature {
-	background: #2ABF5E;
+	background: #1F958E;
 	padding: 2.5em 0 0em 0em;
 	}
 	#feature h3 {
@@ -982,7 +982,7 @@ p.comment-form-author {
 	margin: 3% 0%;
 	}
 	div#screenhot {
-	background: #2ABF5E;
+	background: #1F958E;
 	padding: 2em 0 3em 0;
 	}
 	.Demo-text {
@@ -1598,5 +1598,53 @@ p.comment-form-author {
 .CA h3{
 	size: 2.7em;
 	font-weight: 600;
+}
+.ca-head h3{
+	font-size: 2.1em;
+	font-weight: 600;
+	color: #1F958E;
+}
+.ca-logo img{
+	margin-top: -79px;
+}
+.ca-logo h4{
+	font-size: 2.6em;
+	font-weight: 600;
+	color: #888888;
+	margin-top: -175px;
+
+}
+.ca-content p{
+	color: #888888;
+	font-size: 1.3em;
+	margin: 0.7em auto;
+	line-height: 1.8em;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	width: 100%;
+	/*margin-top:-170px;*/
+
+}
+.read-more{
+	width: 33%;
+	margin-bottom: 15px;
+}
+@media only screen and (max-width : 480px){
+	.ca-content p{
+		/*margin-top:-100px;*/
+		font-size: 17px;
+	}
+	.ca-logo h4{
+		font-size: 1.6em;
+		font-weight: 600;
+		color: #888888;
+		margin-top: -96px;
+	}
+	.read-more{
+		width: 38%;
+	}
+}
+.slider{
+	background: #1F958E;
 }
 
