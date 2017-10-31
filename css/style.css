@@ -282,7 +282,7 @@ text-align: right;
 	line-height: 1.8em;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
-	width: 66%;
+	width: 90%;
 }
 .gallery-head{
 	margin-bottom: 4em;
@@ -450,9 +450,9 @@ div#screenshot{
 }
 .slider h3 {
 	text-align: center;
-	font-size: 3em;
+	font-size: 2.7em;
 	text-transform: uppercase;
-	color: #fff;
+	color: #1F958E;
 	font-weight: 600;
 	margin-bottom:1.2em;
 }
@@ -1594,5 +1594,9 @@ p.comment-form-author {
 	.top-nav ul li a{
 		color: #2C3E50;
 	}
+}
+.CA h3{
+	size: 2.7em;
+	font-weight: 600;
 }
 
