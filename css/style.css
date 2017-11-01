@@ -1230,7 +1230,7 @@ p.comment-form-author {
 	font-size: 17px;
 	width: 94%;
 	overflow: hidden;
-	height: 64px;
+	/*height: 64px;*/
 	}
 	.gallery-head h3 {
 	font-size: 1.5em;
