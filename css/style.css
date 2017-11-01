@@ -20,6 +20,9 @@ body a{
 /*-----start-header----*/
 .header{
 	background: #1F958E;
+	position: fixed;
+	z-index: 5;
+	width: 100%;
 }
 
 .logo{
@@ -257,9 +260,9 @@ text-align: right;
 	background:#fff;
 }
 .gallery-head h3 {
-	color: #2ABF5E;
-	font-weight: 700;
-	font-size: 2.8em;
+	color: #1F958E;
+	font-weight: 600;
+	font-size: 2.7em;
 	margin: 0;
 	text-transform: uppercase;
 	font-family: 'Open Sans', sans-serif;
@@ -279,7 +282,7 @@ text-align: right;
 	line-height: 1.8em;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
-	width: 66%;
+	width: 90%;
 }
 .gallery-head{
 	margin-bottom: 4em;
@@ -300,7 +303,7 @@ text-align: right;
 }
 #feature h3 {
 	text-align: center;
-	font-size: 3.5em;
+	font-size: 2.7em;
 	text-transform: uppercase;
 	color: #fff;
 	font-weight: 600;
@@ -312,8 +315,8 @@ text-align: right;
 .feature-text h2 {
 	text-align: left;
 	color: #fff;
-	font-size: 2.5em;
-	font-weight: 700;
+	font-size: 2.2em;
+	font-weight: 500;
 	width: 88%;
 	line-height: 1.27em;
 	font-family: 'Open Sans', sans-serif;
@@ -399,9 +402,9 @@ margin-top: 4em;
 	font-weight:600;
 }
 .review-head h3{
-	color: #2ABF5E;
-	font-weight: 700;
-	font-size:3em;
+	color: #1F958E;
+	font-weight: 600;
+	font-size:2.7em;
 	margin: 0;
 	text-transform: uppercase;
 	font-family: 'Open Sans', sans-serif;
@@ -424,7 +427,7 @@ margin-top: 4em;
 	border-radius: 0.4em;
 	-moz-border-radius: 0.4em;
 	-o-border-radius: 0.4em;
-	background:#2ABF5E;
+	background:#1F958E;
 	font-weight: 700;
 	width:23%;
 }
@@ -435,8 +438,9 @@ margin-top: 4em;
 	}
 /*--- Slider Part Starts Here ----*/
 /*------------------ Slider Part starts Here----------*/
-div#screenhot{
-	background:#2ABF5E;
+div#screenshot{
+	/*background:#2ABF5E;*/
+	background: #1F958E;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-o-background-size: cover;
@@ -446,7 +450,7 @@ div#screenhot{
 }
 .slider h3 {
 	text-align: center;
-	font-size: 3em;
+	font-size: 2.7em;
 	text-transform: uppercase;
 	color: #fff;
 	font-weight: 600;
@@ -519,9 +523,9 @@ text-align: left;
 	font-family: 'Open Sans', sans-serif;
 }
 .demo-head h3 {
-	color: #2ABF5E;
-	font-weight: 700;
-	font-size:3em;
+	color: #1F958E;
+	font-weight: 600;
+	font-size:2.7em;
 	margin: 0;
 	text-transform: uppercase;
 	font-family: 'Open Sans', sans-serif;
@@ -550,9 +554,9 @@ float:right;
 	width:40%;
 }
 .download_left h3,.download_right h3 {
-	color: #2ABF5E;
-	font-weight: 700;
-	font-size: 2.6em;
+	color: #1F958E;
+	font-weight: 600;
+	font-size: 2.5em;
 	margin: 0;
 	text-transform: uppercase;
 	font-family: 'Open Sans', sans-serif;
@@ -583,7 +587,8 @@ float:right;
 	border-radius: 0.4em;
 	-moz-border-radius: 0.4em;
 	-o-border-radius: 0.4em;
-	background:#2ABF5E;
+	/*background:#2ABF5E;*/
+	background: #1F958E;
 	font-weight: 700;
 	width:60%;
 }
@@ -599,14 +604,14 @@ float:right;
 /*--contact--*/
 .contact{
 	padding: 3.3em 0 4em 0;
-	background: #2ABF5E;
+	background: #1F958E;
 }
 .contact h3{
 	text-align: center;
-	font-size: 3.1em;
+	font-size: 2.7em;
 	text-transform: uppercase;
 	color: #fff;
-	font-weight: 700;
+	font-weight: 600;
 	margin-bottom: 1em;
 }
 .contact-form {
@@ -656,7 +661,7 @@ p.comment-form-author {
 .contact-form input[type="submit"]{
 	padding: 0.6em 2em;
 	text-decoration: none;
-	border: 2px solid #1A783B;
+	border: 2px solid #1E494C;
 	margin-top: 1em;
 	display: inline-block;
 	font-family: 'Open Sans', sans-serif;
@@ -672,7 +677,7 @@ p.comment-form-author {
 	border-radius: 0.4em;
 	-moz-border-radius: 0.4em;
 	-o-border-radius: 0.4em;
-	background: #2ABF5E;
+	background: #1F958E;
 	font-weight: 700;
 	width:37%;
 	outline: none;
@@ -738,7 +743,8 @@ p.comment-form-author {
 	width: 89%;
 	}
 	#feature {
-	background: #2ABF5E;
+	/*background: #2ABF5E;*/
+		background: #1D6E73;
 	padding: 4em 0 0em 0em;
 	}
 	
@@ -748,7 +754,8 @@ p.comment-form-author {
 	width: 89%;
 	}
 	#feature {
-	background: #2ABF5E;
+	/*background: #2ABF5E;*/
+		background: #1F958E;
 	padding: 4em 0 0em 0em;
 	}
 	
@@ -831,7 +838,7 @@ p.comment-form-author {
 	font-size: 2.4em;
 	}
 	#feature {
-	background: #2ABF5E;
+	background: #1F958E;
 	padding: 2.5em 0 0em 0em;
 	}
 	#feature h3 {
@@ -975,7 +982,7 @@ p.comment-form-author {
 	margin: 3% 0%;
 	}
 	div#screenhot {
-	background: #2ABF5E;
+	background: #1F958E;
 	padding: 2em 0 3em 0;
 	}
 	.Demo-text {
@@ -1036,7 +1043,7 @@ p.comment-form-author {
 	float: none;
 	text-align: right;
 	}
-	.contact {
+	.contactcontact {
 	padding: 2.5em 0 3em 0;
 	}
 	.contact-form {
@@ -1509,7 +1516,7 @@ p.comment-form-author {
 .features li{
 	width: 100%;
 	height: 100%;
-	background: #42AB55;
+	background: #1D6E73;
 	padding-left: 15px;
 	line-height: 2;
 
@@ -1522,7 +1529,8 @@ p.comment-form-author {
 .about_tile{
 
 	height: 270px;
-	background: #2ABF5E;
+	/*background: #2ABF5E;*/
+	background: #1F958E;
 	width: 70%;
 	margin-left: auto;
 	margin-right: auto;
@@ -1554,7 +1562,7 @@ p.comment-form-author {
 
 }
 .team-tile{
-	background: #2ABF5E;
+	background: #1F958E;
 	text-align: center;
 	width: 80%;
     margin-top: 10px;
@@ -1586,5 +1594,57 @@ p.comment-form-author {
 	.top-nav ul li a{
 		color: #2C3E50;
 	}
+}
+.CA h3{
+	size: 2.7em;
+	font-weight: 600;
+}
+.ca-head h3{
+	font-size: 2.1em;
+	font-weight: 600;
+	color: #1F958E;
+}
+.ca-logo img{
+	margin-top: -79px;
+}
+.ca-logo h4{
+	font-size: 2.6em;
+	font-weight: 600;
+	color: #888888;
+	margin-top: -175px;
+
+}
+.ca-content p{
+	color: #888888;
+	font-size: 1.3em;
+	margin: 0.7em auto;
+	line-height: 1.8em;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	width: 100%;
+	/*margin-top:-170px;*/
+
+}
+.read-more{
+	width: 33%;
+	margin-bottom: 15px;
+}
+@media only screen and (max-width : 480px){
+	.ca-content p{
+		/*margin-top:-100px;*/
+		font-size: 17px;
+	}
+	.ca-logo h4{
+		font-size: 1.6em;
+		font-weight: 600;
+		color: #888888;
+		margin-top: -96px;
+	}
+	.read-more{
+		width: 38%;
+	}
+}
+.slider{
+	background: #1F958E;
 }
 
