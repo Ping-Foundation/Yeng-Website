@@ -187,13 +187,15 @@ nav a#pull {
 }
 .join-btn{
 	font-weight: 700;
+	border: none;
 }
 
 .design{
 	margin-top: -2px;
 }
 .join-btn:hover{
-	border-color: #1B242F;
+	background-color: #1E494C;
+	border-color: #ffffff;
 }
 .demo .container {
 	width: 90%;
@@ -1294,7 +1296,7 @@ p.comment-form-author {
 	 #bodyID .gallery-head p {height: 155px; font-size: 13px;}
 	 #bodyID .about_tile{height: 170px; width: 55%;}
 	 #bodyID .about{padding-bottom: 2em;}
-	 #bodyID .feature-text h2{width: 60%;}
+	 #bodyID .feature-text h2{width: 50%;}
 	 #bodyID .ca-logo h4 {font-size: 1.4em; margin-top: -60px;}
 	 #bodyID .ca-head h3{margin-bottom: 50px;}
 	 #bodyID .ca-content p{font-size: 1em; margin-top: 8%;}
@@ -1463,7 +1465,7 @@ p.comment-form-author {
 		padding: 2%; 
 		width: 35%; 
 		text-align: center;
-		margin: 0 auto 0 4%;
+		/* margin: 0 auto 0 4%; */
 	}
 	.Feature-content{margin-bottom: 7%;}
 	.ca-logo h4 {font-size: 1.8em; margin-top: -100px;}
