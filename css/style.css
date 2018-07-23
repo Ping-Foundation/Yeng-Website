@@ -8,7 +8,6 @@ html, body{
 	font-family: 'Open Sans', sans-serif;
 	background: #FFf;
 	width: 100%;
-	height: 100%;
 }
 
 body a{
@@ -164,6 +163,7 @@ nav a#pull {
 	height: auto;
 	display: flex;
 	justify-content: space-around;
+	flex-flow: row nowrap;
 	color: #fff;
 	margin: 2% 0 2% 0;
 	
@@ -199,6 +199,7 @@ nav a#pull {
 }
 .demo .container {
 	width: 90%;
+	height: 6.8%;
 }
 .CA h3{
 	size: 2.7em;
@@ -791,20 +792,9 @@ p.comment-form-author {
 	filter: alpha(opacity=0);
 }
 /*---- responsive-design -----*/
-
-@media(max-width:1366px){
-	.top-header {
-		width: 89%;
-	}
-}
-@media(max-width:1280px){
-	.top-nav ul li a {
-		padding: 0px 0.2em;
-		color:#ffffff;
-	}
-	.logo {
-		margin-top: 1.2em;
-	}
+@media(max-width:1440px){
+	.top-nav ul li a {padding: 0px 0.2em;color:#ffffff;}
+	.logo {margin-top: 1.2em;}
 	.banner {
 		background: url(../images/bg.jpg) no-repeat 0px 0px;
 		background-size: cover;
@@ -818,15 +808,16 @@ p.comment-form-author {
 		font-weight: 600;
 		width: 66%;
 	}
-	#feature h3 {
-		text-align: center;
-		font-size: 3.2em;
-	}
-	.review-head h3 {
-		font-size: 3em;
-	}
+	#feature h3 {text-align: center;font-size: 3.2em;}
+	.review-head h3 {font-size: 3em;}
+
 	
 }
+
+@media only screen and (min-width: 1025px) and (max-width: 1354px){
+	.teams-h{padding: 1%;}
+}
+
 @media only screen and (max-width:1024px){
 	.top-nav{width: 73%;}
 	.top-nav ul li a {
