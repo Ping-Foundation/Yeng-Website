@@ -201,7 +201,32 @@ nav a#pull {
 	width: 90%;
 	height: 6.8%;
 }
+.CA h3{
+	size: 2.7em;
+	font-weight: 600;
+}
+.ca-head h3{
+	font-size: 2.1em;
+	font-weight: 600;
+	color: #1F958E;
+}
 
+.ca-logo h4{
+	font-size: 2.6em;
+	font-weight: 600;
+	color: #888888;	
+}
+.ca-content p{
+	color: #888888;
+	font-size: 1.3em;
+	margin: 0.7em auto;
+	line-height: 1.8em;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	width: 100%;
+	/*margin-top:-170px;*/
+	
+}
 .read-more{
 	width: 33%;
 	margin-bottom: 15px;
@@ -1259,7 +1284,8 @@ p.comment-form-author {
 	 #bodyID .about_tile{height: 170px; width: 55%;}
 	 #bodyID .about{padding-bottom: 2em;}
 	 #bodyID .feature-text h2{width: 50%;}
-
+	 #bodyID .ca-logo h4 {font-size: 1.4em; margin-top: -60px;}
+	 #bodyID .ca-head h3{margin-bottom: 50px;}
 	 
 	 #bodyID a.read-more{width: 55%;}
 	 #bodyID .team-tile h3 {font-size: 15px;}
@@ -1388,10 +1414,6 @@ p.comment-form-author {
 		left: 7%;
 		width: 78%;
 	}
-	.ca-h4
-	{
-		font-size: 200px;
-	}
 	.banner h1,.banner p {margin-left: 28%;}
 	 nav.top-nav a#pull {left: 88%;}
 	 nav.top-nav ul {margin: 34% 5% 10% -71%;}
@@ -1403,6 +1425,7 @@ p.comment-form-author {
 	 div.about{padding-bottom: 2em;}
 	 #feature{margin-top: 2%;}
 	 div.feature-text h2{width: 40%;}
+	 div.ca-logo h4 {font-size: 1.4em; margin-top: -60px;}
 	 a.read-more{width: 50%;}
 }
 
@@ -1432,7 +1455,8 @@ p.comment-form-author {
 		/* margin: 0 auto 0 4%; */
 	}
 	.Feature-content{margin-bottom: 7%;}
-
+	.ca-logo h4 {font-size: 1.8em; margin-top: -100px;}
+	.ca-content p {font-size: 1.16em;}
 	.col-xs-6{width: 100%;}
 	.team-tile{height: 40px;}
 	.demo .review-btn {height: 40px;}
