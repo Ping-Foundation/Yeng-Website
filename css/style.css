@@ -711,6 +711,7 @@ p.comment-form-author {
 	resize: none;
 	height: 200px;
 	font-family: 'Open Sans', sans-serif;
+	border-radius: 2px;
 }
 .contact-form input[type="submit"]{
 	padding: 0.6em 2em;
