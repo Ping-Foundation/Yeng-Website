@@ -10,50 +10,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <head>
 	<title>Yeng App | Home :: Crazy Amigos</title>
 	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="js/jquery.min.js"></script>
 	<!-- Custom Theme files -->
 	<link href="css/style.css" rel='stylesheet' type='text/css' />
 	<!-- Custom Theme files -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-	</script>
-	<!-- start-smoth-scrolling-->
-	<script type="text/javascript" src="js/move-top.js"></script>
-	<script type="text/javascript" src="js/jquery.easing.min.js"></script>
-	<script type="text/javascript" src="js/google-form.js"></script>
-	<script type="text/javascript">
-		jQuery(document).ready(function ($) {
-			$(".scroll").click(function (event) {
-				event.preventDefault();
-				$('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
-			});
-		});
-	</script>
-	<!-- start-smoth-scrolling-->
 	<!--- webfonts -->
-	<link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet'
-	 type='text/css'>
+	<link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700'
+		rel='stylesheet' type='text/css'>
 	<!--- webfonts -->
-	<!--start-top-nav-script-->
-	<script>
-		$(function () {
-			var pull = $('#pull');
-			menu = $('nav ul');
-			menuHeight = menu.height();
-			$(pull).on('click', function (e) {
-				e.preventDefault();
-				menu.slideToggle();
-			});
-			$(window).resize(function () {
-				var w = $(window).width();
-				if (w > 320 && menu.is(':hidden')) {
-					menu.removeAttr('style');
-				}
-			});
-		});
-	</script>
-	<!--//End-top-nav-script-->
 </head>
 
 <body id="bodyID">
@@ -119,8 +83,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="container">
 			<div class="gallery-head text-center">
 				<h3>ABOUT</h3>
-				<p>Yeng is the next generation mobile app which leverages bleeding edge technology to better enhance your alma mater experience
-					through participation from fellow students, faculties and the general public. Experience and streamline your University
+				<p>Yeng is the next generation mobile app which leverages bleeding edge technology to better enhance
+					your alma mater experience
+					through participation from fellow students, faculties and the general public. Experience and
+					streamline your University
 					life like never before using Yeng.</p>
 			</div>
 			<div class="row text-center about-wrapper">
@@ -286,8 +252,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<h4>"Finding Empty Space"</h4>
 					</div>
 					<div class="ca-content">
-						<p>Yeng is the brainchild of Crazy Amigos, a team of tech professionals, students and aficionados with the mission to
-							make the world a better place by driving the youth to excellence. Be part of Crazy Amigos to get motivated by our
+						<p>Yeng is the brainchild of Crazy Amigos, a team of tech professionals, students and
+							aficionados with the mission to
+							make the world a better place by driving the youth to excellence. Be part of Crazy Amigos to
+							get motivated by our
 							amigos and explore open source in all it's beauty...</p>
 					</div>
 					<a class="review-btn read-more" href="http://crazyamigos.io">READ MORE</a>
@@ -589,8 +557,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 				<div class="download_right">
 					<h3>Open Source</h3>
-					<p> Do you feel like there is something more that YOU could contribute to Yeng? Yeng App is fully Open Source! feel free to
-						source your talent to Yeng App through our GitHub repo. You can also raise your valuble suggestions and queries about Yeng
+					<p> Do you feel like there is something more that YOU could contribute to Yeng? Yeng App is fully
+						Open Source! feel free to
+						source your talent to Yeng App through our GitHub repo. You can also raise your valuble
+						suggestions and queries about Yeng
 						App in GitHub and we WILL for sure check them out!</p>
 					<a class="Down-btn" href="https://github.com/Crazy-Amigos/Yeng" target="_blank">Get Source</a>
 				</div>
@@ -604,21 +574,27 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="container">
 			<h3>CONTACT</h3>
 			<div class="contact-form">
-				<form method="POST" id="webform" action="https://script.google.com/macros/s/AKfycbz-wy2uctcS7XMnFJ4hfqqOAOILAE6LZGPrWiZ7IxTekesxhO0/exec">
+				<form method="POST" id="webform"
+					action="https://script.google.com/macros/s/AKfycbz-wy2uctcS7XMnFJ4hfqqOAOILAE6LZGPrWiZ7IxTekesxhO0/exec">
 					<p class="comment-form-author">
 						<label for="author"> Name</label>
-						<input type="text" class="textbox" name="name" value="Enter your name..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter your name...';}">
+						<input type="text" class="textbox" name="name" value="Enter your name..."
+							onfocus="this.value = '';"
+							onblur="if (this.value == '') {this.value = 'Enter your name...';}">
 					</p>
 					<p class="comment-form-author">
 						<label for="author">Email</label>
-						<input type="text" class="textbox" name="email" value="Enter your email..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter your email...';}">
+						<input type="text" class="textbox" name="email" value="Enter your email..."
+							onfocus="this.value = '';"
+							onblur="if (this.value == '') {this.value = 'Enter your email...';}">
 						<span id="email-invalid" style="display:none;color:red">
 							Must be a valid email address
 						</span>
 					</p>
 					<p class="comment-form-author">
 						<label for="author">Message</label>
-						<textarea value="Enter your message..." name="message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Enter your message...</textarea>
+						<textarea value="Enter your message..." name="message" onfocus="this.value = '';"
+							onblur="if (this.value == '') {this.value = 'Message';}">Enter your message...</textarea>
 					</p>
 					<input name="submit" type="submit" id="submit" value="Submit">
 				</form>
@@ -645,6 +621,51 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<span id="toTopHover" style="opacity: 1;"> </span>
 	</a>
 
+
+	<!--start-top-nav-script-->
+	<script>
+		$(function () {
+			var pull = $('#pull');
+			menu = $('nav ul');
+			menuHeight = menu.height();
+			$(pull).on('click', function (e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+			$(window).resize(function () {
+				var w = $(window).width();
+				if (w > 320 && menu.is(':hidden')) {
+					menu.removeAttr('style');
+				}
+			});
+		});
+	</script>
+	<!--//End-top-nav-script-->
+	<script type="application/x-javascript">
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	</script>
+	<!-- start-smoth-scrolling-->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+	<script type="text/javascript" src="js/google-form.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+				$('html,body').animate({
+					scrollTop: $(this.hash).offset().top
+				}, 1000);
+			});
+		});
+	</script>
+	<!-- start-smoth-scrolling-->
 	<script type="text/javascript">
 		$(document).ready(function () {
 			// var defaults = {
@@ -653,9 +674,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			// 	scrollSpeed: 1200,
 			// 	easingType: 'linear'
 			// };
-			$().UItoTop({ easingType: 'easeOutQuart' });
+			$().UItoTop({
+				easingType: 'easeOutQuart'
+			});
 		});
 	</script>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="js/jquery.min.js"></script>
 </body>
 
 </html>
