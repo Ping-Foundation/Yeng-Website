@@ -8,52 +8,22 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html>
 
 <head>
-	<title>Yeng App | Home :: Crazy Amigos</title>
-	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="js/jquery.min.js"></script>
+	<title>Yeng App | Home :: Ping Foundation</title>
+	<!--localy hosted scripts changed to cdn-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
 	<!-- Custom Theme files -->
 	<link href="css/style.css" rel='stylesheet' type='text/css' />
-	<!-- Custom Theme files -->
+
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	
+	<!-- unwanted script tag removed
 	</script>
-	<!-- start-smoth-scrolling-->
-	<script type="text/javascript" src="js/move-top.js"></script>
-	<script type="text/javascript" src="js/jquery.easing.min.js"></script>
-	<script type="text/javascript" src="js/google-form.js"></script>
-	<script type="text/javascript">
-		jQuery(document).ready(function ($) {
-			$(".scroll").click(function (event) {
-				event.preventDefault();
-				$('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
-			});
-		});
-	</script>
-	<!-- start-smoth-scrolling-->
+	-->	
 	<!--- webfonts -->
-	<link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet'
-	 type='text/css'>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;1,100;1,300&display=swap" rel="stylesheet">
 	<!--- webfonts -->
-	<!--start-top-nav-script-->
-	<script>
-		$(function () {
-			var pull = $('#pull');
-			menu = $('nav ul');
-			menuHeight = menu.height();
-			$(pull).on('click', function (e) {
-				e.preventDefault();
-				menu.slideToggle();
-			});
-			$(window).resize(function () {
-				var w = $(window).width();
-				if (w > 320 && menu.is(':hidden')) {
-					menu.removeAttr('style');
-				}
-			});
-		});
-	</script>
-	<!--//End-top-nav-script-->
 </head>
 
 <body id="bodyID">
@@ -68,25 +38,25 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<nav class="top-nav">
 			<ul class="top-nav">
 				<li class="active">
-					<a href="#home" class="scroll">Home </a>
+					<a href="#bodyID" class="scroll">Home </a>
 				</li>
 				<li>
-					<a href="#about" class="scroll">about</a>
+					<a href="#about" class="scroll">About</a>
 				</li>
 				<li>
-					<a href="#features" class="scroll">features</a>
+					<a href="#feature" class="scroll">Features</a>
 				</li>
 				<li>
-					<a href="#ca" class="scroll">crazy-amigos</a>
+					<a href="#pf" class="scroll">Ping Foundation</a>
 				</li>
 				<li>
-					<a href="#screenhot" class="scroll">modules</a>
+					<a href="#screenhot" class="scroll">Modules</a>
 				</li>
 				<li>
-					<a href="#demo" class="scroll">teams</a>
+					<a href="#demo" class="scroll">Join</a>
 				</li>
 				<li>
-					<a href="#download" class="scroll">download</a>
+					<a href="#download" class="scroll">Download</a>
 				</li>
 				<li>
 					<a href="#contact" class="scroll">Contact</a>
@@ -101,8 +71,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!--- banner -->
 	<div class="banner">
 		<div class="container">
-			<div class="banner-info">
-				<div class=" col-md-6 appp">
+			<div class="row banner-info">
+				<div class="col-md-6 appp">
 					<img src="images/mbl-app.png" alt="">
 				</div>
 				<div class="col-md-6 banner-text">
@@ -123,29 +93,35 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					through participation from fellow students, faculties and the general public. Experience and streamline your University
 					life like never before using Yeng.</p>
 			</div>
-			<div class="row text-center about-wrapper">
-				<div class="col-md-4 about_grid about_tile">
-					<img class="about-img" src="images/ab-1.png" alt="">
-					<h3>
-						<strong>It's an university platform,
-							<br>But not only for students</strong>
-					</h3>
+				<div class="text-center about-wrapper">
+					<div class="col-12 col-md-4 about_grid about_tile">
+						<div class="about-wrapper-internal">
+							<img class="about-img" src="images/ab-1.png" alt="">
+							<h3>
+								<strong>It's an university platform,
+									<br>But not only for students</strong>
+							</h3>
+						</div>
+					</div>
+					<div class="col-12 col-md-4 about_grid about_tile">
+						<div class="about-wrapper-internal">
+							<img class="about-img" src="images/ab-2.png" alt="">
+							<h3>
+								<strong>Open source</strong>
+							</h3>
+						</div>
+					</div>
+					<div class="col-12 col-md-4 about_grid about_tile">
+						<div class="about-wrapper-internal">
+							<img class="about-img" src="images/ab-3.png" alt="">
+							<h3>
+								<strong>Free training
+									<br>&amp;
+									<br>Networking</strong>
+							</h3>
+						</div>
+					</div>
 				</div>
-				<div class="col-md-4 about_grid about_tile">
-					<img class="about-img" src="images/ab-2.png" alt="">
-					<h3>
-						<strong>Open source</strong>
-					</h3>
-				</div>
-				<div class="col-md-4 about_grid about_tile effect5">
-					<img class="about-img" src="images/ab-3.png" alt="">
-					<h3>
-						<strong>Free training
-							<br>&amp;
-							<br>Networking</strong>
-					</h3>
-				</div>
-			</div>
 		</div>
 	</div>
 	<!---//End-About->
@@ -156,75 +132,77 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>
 		<div class="container">
 			<div class="Feature">
-				<div class=" col-md-6 feature-text Feature-content">
-					<h2>App Features</h2>
-					<ul class="features">
-						<li>
-							<h4>University Platform</h4>
-						</li>
-						<li>
-							<h4>Peer-to-Peer Chatting</h4>
-						</li>
-						<li>
-							<h4>Live Session</h4>
-						</li>
-						<li>
-							<h4>College Platform</h4>
-						</li>
-						<li>
-							<h4>Public User Interaction</h4>
-						</li>
-						<li>
-							<h4>Events Notification</h4>
-						</li>
-						<li>
-							<h4>Real time University Results</h4>
-						</li>
-						<li>
-							<h4>Entertainments</h4>
-						</li>
-						<li>
-							<h4>Discussion Forums</h4>
-						</li>
+				<div class="row">
+					<div class="col-md-6 feature-text Feature-content">
+						<h2>App Features</h2>
+						<ul class="features">
+							<li>
+								<h4>University Platform</h4>
+							</li>
+							<li>
+								<h4>Peer-to-Peer Chatting</h4>
+							</li>
+							<li>
+								<h4>Live Session</h4>
+							</li>
+							<li>
+								<h4>College Platform</h4>
+							</li>
+							<li>
+								<h4>Public User Interaction</h4>
+							</li>
+							<li>
+								<h4>Events Notification</h4>
+							</li>
+							<li>
+								<h4>Real time University Results</h4>
+							</li>
+							<li>
+								<h4>Entertainments</h4>
+							</li>
+							<li>
+								<h4>Discussion Forums</h4>
+							</li>
 
-					</ul>
-					<!--<h2>Cool marketing slogan Great call to action with nice and clean button</h2>
-							 <p>A slogan is a memorable motto or phrase used in a political, commercial, religious, and other context as a repetitive expression of an idea or purpose.</p>
-							 <a class="slide-btn" href="#">GET IT</a>-->
+						</ul>
+						<!--<h2>Cool marketing slogan Great call to action with nice and clean button</h2>
+								<p>A slogan is a memorable motto or phrase used in a political, commercial, religious, and other context as a repetitive expression of an idea or purpose.</p>
+								<a class="slide-btn" href="#">GET IT</a>-->
 
-				</div>
-				<div class="col-md-6 hand-app feature-text Feature-content">
-					<h2>Tech Features</h2>
-					<ul class="features">
-						<li>
-							<h4>Open Source</h4>
-						</li>
-						<li>
-							<h4>Node.Js Express in Server Side</h4>
-						</li>
-						<li>
-							<h4>MongoDB - NoSQL Databse</h4>
-						</li>
-						<li>
-							<h4>Digital-Ocean Cloud Hosting</h4>
-						</li>
-						<li>
-							<h4>Rich Android Native UI</h4>
-						</li>
-						<li>
-							<h4>Load Balancing Using Nginx</h4>
-						</li>
-						<li>
-							<h4>WebRTC Integrations</h4>
-						</li>
-						<li>
-							<h4>Agile-Scrum for Collaborators</h4>
-						</li>
-						<li>
-							<h4>Git and CI integrations</h4>
-						</li>
-					</ul>
-					<!-- <img src="images/hand-iphone.png" alt="">-->
+					</div>
+					<div class="col-md-6 hand-app feature-text Feature-content">
+						<h2>Tech Features</h2>
+						<ul class="features">
+							<li>
+								<h4>Open Source</h4>
+							</li>
+							<li>
+								<h4>Node.Js Express in Server Side</h4>
+							</li>
+							<li>
+								<h4>MongoDB - NoSQL Databse</h4>
+							</li>
+							<li>
+								<h4>Digital-Ocean Cloud Hosting</h4>
+							</li>
+							<li>
+								<h4>Rich Android Native UI</h4>
+							</li>
+							<li>
+								<h4>Load Balancing Using Nginx</h4>
+							</li>
+							<li>
+								<h4>WebRTC Integrations</h4>
+							</li>
+							<li>
+								<h4>Agile-Scrum for Collaborators</h4>
+							</li>
+							<li>
+								<h4>Git and CI integrations</h4>
+							</li>
+						</ul>
+						<!-- <img src="images/hand-iphone.png" alt="">-->
+					</div>
 				</div>
 			</div>
 		</div>
@@ -274,23 +252,21 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		       	</div>-->
 	<!---//End-Reviews-->
 	<!--- Slider Starts Here -->
-	<div id="ca" class="CA">
+	<div id="pf" class="PF">
 		<div class="container">
-			<div class="ca-head text-center">
-				<h3>CRAZY AMIGOS</h3>
+			<div class="pf-head text-center">
+                <h3>Ping Foundation</h3>
 			</div>
 			<div class="row text-center">
-				<div class="col-md-8 col-md-offset-2 col-xs-12">
-					<div class="ca-logo">
-						<img src="images/ca-logo.png" class="img-responsive">
+				<div class="col-md-12 col-md-offset-2 col-12">
+					<div class="pf-logo">
+						<img src="images/ping_logo.png" class="img-fluid">
+					</div>
+					<div class="pf-content pt-5">
 						<h4>"Finding Empty Space"</h4>
+						<p>Ping Foundation formerly known as Crazy Amigos is an open source community lead by a bunch of tech enthusiasts focusing on open source product development and free training. A team of tech professionals, students and aficionados with the mission to make the world a better place by driving the youth to excellence. Be part of PING FOUNDATION to get motivated and explore open source in all it's beauty...</p>
 					</div>
-					<div class="ca-content">
-						<p>Yeng is the brainchild of Crazy Amigos, a team of tech professionals, students and aficionados with the mission to
-							make the world a better place by driving the youth to excellence. Be part of Crazy Amigos to get motivated by our
-							amigos and explore open source in all it's beauty...</p>
-					</div>
-					<a class="review-btn read-more" href="http://crazyamigos.io">READ MORE</a>
+					<a class="review-btn read-more" href="https://pingfoundation.org/">READ MORE</a>
 				</div>
 
 			</div>
@@ -304,23 +280,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<!--sreen-gallery-cursual-->
 				<div class="sreen-gallery-cursual">
 					<!-- requried-jsfiles-for owl -->
-					<link href="css/owl.carousel.css" rel="stylesheet">
-					<script src="js/owl.carousel.js"></script>
-					<script>
-						$(document).ready(function () {
-							$("#owl-demo").owlCarousel({
-								items: 1,
-								lazyLoad: true,
-								autoPlay: true,
-								navigation: false,
-								navigationText: false,
-								pagination: true,
-							});
-						});
-					</script>
+					<link href="css/owl.carousel.css" rel="stylesheet">		
+
 					<!-- //requried-jsfiles-for owl -->
 					<!-- start content_slider -->
-					<div id="owl-demo" class="owl-carousel">
+					<div id="pink_carousel" class="owl-carousel">
 						<div class="item">
 							<div class="test-monial">
 								<img src="images/Screen1.png" class="img-responsive" alt="" />
@@ -358,7 +322,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div id="demo" class="demo">
 		<div class="container">
 			<div class="demo-head text-center">
-				<h3>TEAMS</h3>
+				<h3>JOIN</h3>
 			</div>
 			<!--	<div class="row Demo text-center">
 		       				<div class="demo-grid">
@@ -555,7 +519,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								<button class="review-btn join-btn">Join</button>
 							</a>
 						</div>
-
 					</div>
 				</div>
 				<div class="col-md-4 col-xs-6">
@@ -570,7 +533,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								<button class="review-btn join-btn">Join</button>
 							</a>
 						</div>
-
 					</div>
 				</div>
 			</div>
@@ -592,7 +554,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<p> Do you feel like there is something more that YOU could contribute to Yeng? Yeng App is fully Open Source! feel free to
 						source your talent to Yeng App through our GitHub repo. You can also raise your valuble suggestions and queries about Yeng
 						App in GitHub and we WILL for sure check them out!</p>
-					<a class="Down-btn" href="https://github.com/Crazy-Amigos/Yeng" target="_blank">Get Source</a>
+					<a class="Down-btn" href="https://github.com/Ping-Foundation/Yeng" target="_blank">Get Source</a>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
@@ -645,17 +607,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<span id="toTopHover" style="opacity: 1;"> </span>
 	</a>
 
-	<script type="text/javascript">
-		$(document).ready(function () {
-			// var defaults = {
-			// 	containerID: 'toTop', // fading element id
-			// 	containerHoverID: 'toTopHover', // fading element hover id
-			// 	scrollSpeed: 1200,
-			// 	easingType: 'linear'
-			// };
-			$().UItoTop({ easingType: 'easeOutQuart' });
-		});
-	</script>
-</body>
+	<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	<script src="js/owl.carousel.js"></script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+	<script type="text/javascript" src="js/google-form.js"></script>
+	<script src="js/custom.js"></script>
 
+</body>
 </html>

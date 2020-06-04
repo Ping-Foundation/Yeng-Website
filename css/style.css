@@ -48,7 +48,7 @@ body a{
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 700;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Mono', monospace;
 }
 
 .top-nav ul li a:hover{
@@ -97,16 +97,8 @@ nav a#pull {
 }
 
 .about_tile{
-	display: flex;
-	align-items: center;
-	height: 270px;
-	background: #1F958E;
 	width: 100%;
-	margin-left: 2%;
-	margin-right: 2%;
-	box-shadow: 10px 15px 5px #E5F0E7;
-	color: #fff;
-	
+	padding: 1rem;
 }
 .about_tile h3{
 	position: absolute;
@@ -117,13 +109,28 @@ nav a#pull {
 	line-height: 1.5;
 	left: 0;
 	right: 0;
+	font-family: 'Roboto Mono', monospace;
 }
 
 .about-wrapper{
 	display: flex;
+	/*
 	justify-content: space-between;
+	*/
+	justify-content: stretch;
 }
 
+.about-wrapper-internal{
+	background: #1F958E;
+	display: flex;
+	align-items: center;
+	/*
+	height: 270px;
+	*/
+	box-shadow: 10px 15px 5px #E5F0E7;
+	color: #fff;
+	border-radius: 12px;
+}
 #bodyID #feature .row {
 	margin-left: 0;
 	margin-right: 0;
@@ -137,6 +144,7 @@ nav a#pull {
 	margin-bottom: 70px;
 	display: flex;
 	justify-content: space-between;
+	font-family: 'Roboto Mono', monospace;
 }
 #feature {
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -169,8 +177,9 @@ nav a#pull {
 	
 }
 .team-tile div{
-	display: flex; 
+	display: flex !important; 
 	align-items: center;
+	font-family: OpenSans;
 }
 .team-tile div:nth-child(2){
 	width: 30%;
@@ -180,7 +189,9 @@ nav a#pull {
 .teams-h{
 	width: 100%; 
 	justify-content: center;
+	/*
 	padding: 5%;
+	*/
 }
 .teams-h h3{
 	margin: 0;
@@ -201,31 +212,37 @@ nav a#pull {
 	width: 90%;
 	height: 6.8%;
 }
-.CA h3{
+.PF h3{
 	size: 2.7em;
 	font-weight: 600;
 }
-.ca-head h3{
+.pf-head h3{
 	font-size: 2.1em;
 	font-weight: 600;
 	color: #1F958E;
 }
-.ca-logo img{
-	margin-top: -79px;
+.pf-logo img{
+	margin-top: 8em;
 }
-.ca-logo h4{
+.pf-logo h4{
 	font-size: 2.6em;
 	font-weight: 600;
 	color: #888888;
 	margin-top: -175px;
-	
 }
-.ca-content p{
+
+.pf-content h4{
+	font-size: 2.6em;
+	font-weight: 600;
+	color: #888888;
+	margin-top: 1rem;
+}
+.pf-content p{
 	color: #888888;
 	font-size: 1.3em;
 	margin: 0.7em auto;
 	line-height: 1.8em;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Mono', monospace;
 	font-weight: 600;
 	width: 100%;
 	/*margin-top:-170px;*/
@@ -301,7 +318,8 @@ nav a#pull {
 	font-size: 2.7em;
 	margin: 0;
 	text-transform: uppercase;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Mono', monospace;
+	margin-top: 8rem;
 	
 }
 .gallery-head span {
@@ -316,7 +334,7 @@ nav a#pull {
 	margin: 0.7em auto;
 	font-size: 1.3em;
 	line-height: 1.8em;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Mono', monospace;
 	font-weight: 600;
 	width: 90%;
 }
@@ -329,6 +347,7 @@ nav a#pull {
 	background: -webkit-linear-gradient(to right, #93F9B9, #1D976C);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #93F9B9, #1D976C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	padding:3em 0 0em 0em;
+	padding-top: 6rem;
 }
 .test-monials h3{
 	text-align: center;
@@ -359,13 +378,13 @@ nav a#pull {
 	font-weight: 500;
 	width: 88%;
 	line-height: 1.27em;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Mono', monospace;
 }
 .feature-text p {
 	color: #fff;
 	font-size: 1.75em;
 	font-weight: 700;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Mono', monospace;
 	line-height: 1.7em;
 }
 .slide-btn {
@@ -374,7 +393,7 @@ nav a#pull {
 	border: 2px solid #1E8843;
 	margin-top: 1em;
 	display: inline-block;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Mono', monospace;
 	color: #FFF;
 	-webkit-appearance:none;
 	font-size: 1.5em;
@@ -447,12 +466,12 @@ a.review-btn{
 	font-size:2.7em;
 	margin: 0;
 	text-transform: uppercase;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Mono', monospace;
 }
 
 .review-btn {
 	text-decoration: none;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Mono', monospace;
 	color: #FFF;
 	-webkit-appearance:none;
 	font-size: 1.5em;
@@ -471,7 +490,7 @@ a.review-btn{
 	height: 70px;
 }
 
-.CA .review-btn{
+.PF .review-btn{
 	padding: 0.6em 2em;
 	border: 2px solid #1A783B;
 	margin-top: 1em;
@@ -531,7 +550,7 @@ div#demo {
 	border: 2px solid #1A783B;
 	margin-top: 1em;
 	display: inline-block;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Mono', monospace;
 	color: #FFF;
 	-webkit-appearance:none;
 	font-size: 1.5em;
@@ -562,7 +581,7 @@ div#demo {
 	color: #616366;
 	font-size: 1.6em;
 	font-weight: 600;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Mono', monospace;
 }
 .demo-text p {
 	color: #888;
@@ -570,7 +589,7 @@ div#demo {
 	width: 93%;
 	line-height: 1.7em;
 	font-weight: 600;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Mono', monospace;
 }
 .demo-head h3 {
 	color: #1F958E;
@@ -578,7 +597,7 @@ div#demo {
 	font-size:2.7em;
 	margin: 0;
 	text-transform: uppercase;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Mono', monospace;
 	margin-bottom: 1em;
 }
 /*******************/
@@ -612,14 +631,14 @@ div#demo {
 	font-size: 2.5em;
 	margin: 0;
 	text-transform: uppercase;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Mono', monospace;
 }
 .download_left p,.download_right p {
 	color: #888;
 	font-weight: 100;
 	font-size: 1.8em;
 	margin: 11% 0;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Mono', monospace;
 }
 
 .Down-btn {
@@ -628,7 +647,7 @@ div#demo {
 	border: 2px solid #1A783B;
 	margin-top: 1em;
 	display: inline-block;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Mono', monospace;
 	color: #FFF;
 	font-size: 1.5em;
 	-webkit-appearance:none;
@@ -696,7 +715,8 @@ p.comment-form-author {
 	background:#fff;
 	outline: none;
 	display: block;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Mono', monospace;
+	border-radius: 1rem;
 }
 .contact-form textarea {
 	padding:10px;
@@ -710,7 +730,8 @@ p.comment-form-author {
 	-webkit-appearance: none;
 	resize: none;
 	height: 200px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Mono', monospace;
+	border-radius: 1rem;
 }
 .contact-form input[type="submit"]{
 	padding: 0.6em 2em;
@@ -718,7 +739,7 @@ p.comment-form-author {
 	border: 2px solid #1E494C;
 	margin-top: 1em;
 	display: inline-block;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Mono', monospace;
 	color: #1E494C;
 	font-size: 1.5em;
 	text-transform:uppercase;
@@ -751,7 +772,7 @@ p.comment-form-author {
 	font-size:0.953em;
 	text-align: center;
 	text-transform: uppercase;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Mono', monospace;
 	margin-top:1.7em;
 }
 .copy-right p a{
@@ -804,7 +825,7 @@ p.comment-form-author {
 		margin: 0.9em auto;
 		font-size: 1.25em;
 		line-height: 1.8em;
-		font-family: 'Open Sans', sans-serif;
+		font-family: 'Roboto Mono', monospace;
 		font-weight: 600;
 		width: 66%;
 	}
@@ -837,7 +858,7 @@ p.comment-form-author {
 		margin: 0.9em auto;
 		font-size: 1.25em;
 		line-height: 1.8em;
-		font-family: 'Open Sans', sans-serif;
+		font-family: 'Roboto Mono', monospace;
 		font-weight: 600;
 		width: 66%;
 	}
@@ -982,7 +1003,7 @@ p.comment-form-author {
 		font-weight: 100;
 		font-size: 1.3em;
 		margin: 2% auto;
-		font-family: 'Open Sans', sans-serif;
+		font-family: 'Roboto Mono', monospace;
 		width: 90%;
 		line-height: 1.7em;
 	}
@@ -991,7 +1012,7 @@ p.comment-form-author {
 		font-weight: 100;
 		font-size: 1.3em;
 		margin: 2% auto;
-		font-family: 'Open Sans', sans-serif;
+		font-family: 'Roboto Mono', monospace;
 		width: 90%;
 		line-height: 1.7em;
 	}
@@ -1082,7 +1103,7 @@ p.comment-form-author {
 	.Feature h2{margin-left: 0;}
 	.design{margin-top: 74px;}
 	.top-nav ul {width: 95%; margin: 12% 5% 5% -15%;}
-	.about_tile{height: 240px;}
+	.about-wrapper-internal{height: 240px;}
 	.features li h4 {font-size: 15px;}
 	.Feature{margin: 0 0 5% 0;}
 	div.teams-h{height: 100%;}
@@ -1143,8 +1164,8 @@ p.comment-form-author {
 	.review-img1 img,.review-img2 img,.review-img3 img {width: 29%;}
 	.footer {padding: 1em 0;}
 	#toTop {bottom: 19px;}
-	.about_tile{height: 200px;}
-	.about_tile h3{font-size: 19px;}
+	.about-wrapper-internal{height: 200px;}
+	.about-wrapper-internal h3{font-size: 19px;}
 	.Feature{margin: 7% 0 5% 0;}
 	.features li h4 {text-align: left;}
 }
@@ -1288,9 +1309,9 @@ p.comment-form-author {
 	 #bodyID .about_tile{height: 170px; width: 55%;}
 	 #bodyID .about{padding-bottom: 2em;}
 	 #bodyID .feature-text h2{width: 50%;}
-	 #bodyID .ca-logo h4 {font-size: 1.4em; margin-top: -60px;}
-	 #bodyID .ca-head h3{margin-bottom: 50px;}
-	 #bodyID .ca-content p{font-size: 1em; margin-top: 8%;}
+	 #bodyID .pf-logo h4 {font-size: 1.4em; margin-top: -60px;}
+	 #bodyID .pf-head h3{margin-bottom: 50px;}
+	 #bodyID .pf-content p{font-size: 1em; margin-top: 8%;}
 	 #bodyID a.read-more{width: 55%;}
 	 #bodyID .team-tile h3 {font-size: 15px;}
 	 #bodyID .team-tile{height: 35px;}
@@ -1407,7 +1428,7 @@ p.comment-form-author {
 		font-size: 14px;
 		text-align: center;
 		text-transform: uppercase;
-		font-family: 'Open Sans', sans-serif;
+		font-family: 'Roboto Mono', monospace;
 		margin-top: 0.3em;
 		line-height: 1.5em;
 	}
@@ -1459,8 +1480,8 @@ p.comment-form-author {
 		/* margin: 0 auto 0 4%; */
 	}
 	.Feature-content{margin-bottom: 7%;}
-	.ca-logo h4 {font-size: 1.8em; margin-top: -100px;}
-	.ca-content p {font-size: 1.16em;}
+	.pf-logo h4 {font-size: 1.8em; margin-top: -100px;}
+	.pf-content p {font-size: 1.16em;}
 	.col-xs-6{width: 100%;}
 	.team-tile{height: 40px;}
 	.demo .review-btn {height: 40px;}
@@ -1472,3 +1493,10 @@ p.comment-form-author {
 	
 }
 
+#pink_carousel .item{
+	margin: 3px;
+}
+#pink_carousel .item img{
+	height: 40rem;
+	width: 40rem;
+}
