@@ -14,6 +14,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<script src="js/jquery.min.js"></script>
 	<!-- Custom Theme files -->
 	<link href="css/style.css" rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	<!-- Custom Theme files -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
@@ -115,29 +116,29 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>
 	<!--- banner -->
 	<!--- /strat-About-->
-	<div id="about" class="about">
+	<div data-aos="zoom-out" data-aos-delay="300" id="about" class="about">
 		<div class="container">
 			<div class="gallery-head text-center">
-				<h3>ABOUT</h3>
-				<p>Yeng is the next generation mobile app which leverages bleeding edge technology to better enhance your alma mater experience
+				<h3 >ABOUT</h3>
+				<p >Yeng is the next generation mobile app which leverages bleeding edge technology to better enhance your alma mater experience
 					through participation from fellow students, faculties and the general public. Experience and streamline your University
 					life like never before using Yeng.</p>
 			</div>
 			<div class="row text-center about-wrapper">
-				<div class="col-md-4 about_grid about_tile">
+				<div data-aos="zoom-in" data-aos-delay="300" class="col-md-4 about_grid about_tile">
 					<img class="about-img" src="images/ab-1.png" alt="">
 					<h3>
 						<strong>It's an university platform,
 							<br>But not only for students</strong>
 					</h3>
 				</div>
-				<div class="col-md-4 about_grid about_tile">
+				<div data-aos="zoom-in" data-aos-delay="300" class="col-md-4 about_grid about_tile">
 					<img class="about-img" src="images/ab-2.png" alt="">
 					<h3>
 						<strong>Open source</strong>
 					</h3>
 				</div>
-				<div class="col-md-4 about_grid about_tile effect5">
+				<div data-aos="zoom-in" data-aos-delay="300" class="col-md-4 about_grid about_tile effect5">
 					<img class="about-img" src="images/ab-3.png" alt="">
 					<h3>
 						<strong>Free training
@@ -156,7 +157,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>
 		<div class="container">
 			<div class="Feature">
-				<div class=" col-md-6 feature-text Feature-content">
+				<div data-aos="fade-right" data-aos-delay="300" class=" col-md-6 feature-text Feature-content">
 					<h2>App Features</h2>
 					<ul class="features">
 						<li>
@@ -193,7 +194,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							 <a class="slide-btn" href="#">GET IT</a>-->
 
 				</div>
-				<div class="col-md-6 hand-app feature-text Feature-content">
+				<div data-aos="fade-left" data-aos-delay="300" class="col-md-6 hand-app feature-text Feature-content">
 					<h2>Tech Features</h2>
 					<ul class="features">
 						<li>
@@ -275,7 +276,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!---//End-Reviews-->
 	<!--- Slider Starts Here -->
 	<div id="ca" class="CA">
-		<div class="container">
+		<div data-aos="fade-left" data-aos-delay="600" class="container">
 			<div class="ca-head text-center">
 				<h3>CRAZY AMIGOS</h3>
 			</div>
@@ -600,7 +601,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>
 	<!---//End-Download-->
 	<!---/start-contact-->
-	<div class="contact" id="contact">
+	<div data-aos="zoom-in" data-aos-delay="200" class="contact" id="contact">
 		<div class="container">
 			<h3>CONTACT</h3>
 			<div class="contact-form">
@@ -656,6 +657,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			$().UItoTop({ easingType: 'easeOutQuart' });
 		});
 	</script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+	<script>
+		AOS.init();
+	  </script>
 </body>
 
 </html>
