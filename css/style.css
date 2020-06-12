@@ -1057,6 +1057,59 @@ p.comment-form-author {
 		background: #fff;
 		border: 1px solid#E8E8E9;
 	}
+
+	nav .menu-btn{
+		position: relative;
+		height: 35px;
+		width: 35px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+		transition: all 0.5s ease-in-out;
+	}
+	
+	nav .menu-btn-handburger{
+		width: 75%;
+		height: 3px;
+		background-color: #fff;
+		box-shadow: 0 2px 5px rgba(255, 101, 47, .2);
+		transition: all .5s ease-in-out;
+	}
+	
+	nav .menu-btn-handburger::before,
+	.menu-btn-handburger::after{
+		content: '';
+		position: absolute;
+		width: 75%;
+		height: 3px;
+		background-color: #fff;
+		box-shadow: rgba(255, 101, 47, .2);
+		transition: all .5s ease-in-out;
+	}
+	
+	nav .menu-btn-handburger::before{
+		transform: translateY(-8px);
+	}
+	
+	nav .menu-btn-handburger::after{
+		transform: translateY(8px);
+	}
+	
+	nav .menu-btn.open .menu-btn-handburger {
+		transform: translateX(-50px);
+		background: transparent;
+		box-shadow: none;
+	}
+	
+	nav .menu-btn.open .menu-btn-handburger::before{
+		transform: rotate(45deg) translate(38px, -38px);
+	}
+	
+	nav .menu-btn.open .menu-btn-handburger::after{
+		transform: rotate(-45deg) translate(38px, 38px);
+	}
+
 	nav a#pull {
 		display: block;
 		position: relative;

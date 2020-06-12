@@ -93,7 +93,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</li>
 			</ul>
 			<a href="#" id="pull">
-				<img src="images/menu-icon.png" title="menu" />
+				<div class="menu-btn">
+					<div class="menu-btn-handburger" ></div>
+				</div>
 			</a>
 		</nav>
 	</div>
@@ -654,6 +656,21 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			// 	easingType: 'linear'
 			// };
 			$().UItoTop({ easingType: 'easeOutQuart' });
+		});
+	</script>
+	<script type="text/javascript">
+		const menuBtn =document.querySelector('.menu-btn');
+		let menuOpen =false;
+		menuBtn.addEventListener('click', () => {
+			if(!menuOpen){
+				menuBtn.classList.add('open');
+				menuOpen=true;
+				// document.getElementById('menu').style.right="0px";
+			}else{
+				menuBtn.classList.remove('open');
+				menuOpen=false;
+				// document.getElementById('menu').style.right="-300px";
+			}
 		});
 	</script>
 </body>
