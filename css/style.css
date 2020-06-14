@@ -165,7 +165,7 @@ nav a#pull {
 	justify-content: space-around;
 	flex-flow: row nowrap;
 	color: #fff;
-	margin: 2% 0 2% 0;
+	margin: 1% 0 1% 0;
 	
 }
 .team-tile div{
@@ -483,7 +483,9 @@ a.review-btn{
 
 .review-btn:hover{
 	text-decoration: none;
-	border:2px solid #F2685C;
+	background-color: #1E494C;
+	border:2px solid  #1E494C;
+	transform:scale(1.1,1.1);
 	color:#fff;
 }
 /*--- Slider Part Starts Here ----*/
@@ -647,7 +649,9 @@ div#demo {
 }
 .Down-btn:hover{
 	text-decoration: none;
-	border:2px solid #F2685C;
+	background-color: #1E494C;
+	border:2px solid  #1E494C;
+	transform:scale(1.1,1.1);
 	color:#fff;
 }
 .download_grid3 {
