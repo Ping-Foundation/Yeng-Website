@@ -1287,7 +1287,7 @@ p.comment-form-author {
 	 #bodyID .gallery-head p {height: 155px; font-size: 13px;}
 	 #bodyID .about_tile{height: 170px; width: 55%;}
 	 #bodyID .about{padding-bottom: 2em;}
-	 #bodyID .feature-text h2{width: 50%;}
+	 #bodyID .feature-text h2{width: 100%;}
 	 #bodyID .ca-logo h4 {font-size: 1.4em; margin-top: -60px;}
 	 #bodyID .ca-head h3{margin-bottom: 50px;}
 	 #bodyID .ca-content p{font-size: 1em; margin-top: 8%;}
@@ -1377,7 +1377,7 @@ p.comment-form-author {
 	.Down-btn {
 		font-size: 16px;
 		font-weight: 700;
-		width: 59%;
+		width: 75%;
 		padding: 0.7em 2em;
 	}
 	.download_right p {font-size: 15px;}
@@ -1428,7 +1428,7 @@ p.comment-form-author {
 	 div.about_tile{height: 170px; width: 55%;}
 	 div.about{padding-bottom: 2em;}
 	 #feature{margin-top: 2%;}
-	 div.feature-text h2{width: 40%;}
+	 div.feature-text h2{width: 100%;}
 	 div.ca-logo h4 {font-size: 1.4em; margin-top: -60px;}
 	 a.read-more{width: 50%;}
 }
