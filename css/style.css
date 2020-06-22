@@ -72,7 +72,9 @@ nav ul {
 }
 nav li {
 	display: inline;
-	margin-left: 12px;
+	margin-left: 14px;
+	text-align: center;
+	
 }
 nav a {
 	color: #fff;
