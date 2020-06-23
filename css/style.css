@@ -184,6 +184,7 @@ nav a#pull {
 }
 .teams-h h3{
 	margin: 0;
+	font-size: 20px;
 }
 .join-btn{
 	font-weight: 700;
@@ -200,6 +201,9 @@ nav a#pull {
 .demo .container {
 	width: 90%;
 	height: 6.8%;
+}
+.CA{
+	padding: 5em 0;
 }
 .CA h3{
 	size: 2.7em;
@@ -254,7 +258,7 @@ nav a#pull {
 }
 /*----- banner -----*/
 .banner{
-	background:url(../images/bg.jpg) no-repeat 0px 0px;
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/bg.jpg) no-repeat 0px 0px;
 	background-size:cover;
 	min-height: 595px;
 	position:relative;
@@ -796,7 +800,7 @@ p.comment-form-author {
 	.top-nav ul li a {padding: 0px 0.2em;color:#ffffff;}
 	.logo {margin-top: 1.2em;}
 	.banner {
-		background: url(../images/bg.jpg) no-repeat 0px 0px;
+		background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/bg.jpg) no-repeat 0px 0px;
 		background-size: cover;
 		min-height: 594px;
 	}
@@ -1175,6 +1179,7 @@ p.comment-form-author {
 	}
 	.Downloads {
 		text-align: center;
+		padding-top: 2.5em;
 	}
 	.download_right {
 		margin-top: 6%;
@@ -1276,6 +1281,11 @@ p.comment-form-author {
 		text-align: right;
 		margin-top: -11em;
 		margin-left: 38px;
+	}
+
+	/* Owl carousel pagination button */
+	.owl-theme .owl-controls .owl-page{
+		zoom: .5 !important;
 	}
 }
 @media only screen and (max-width: 320px){
@@ -1464,6 +1474,8 @@ p.comment-form-author {
 	.col-xs-6{width: 100%;}
 	.team-tile{height: 40px;}
 	.demo .review-btn {height: 40px;}
+	.teams-h{justify-content: flex-start;}
+	.teams-h h3{padding: 8px; font-size: 1em;}
 }
 .slider{
 	background: #1D976C;  /* fallback for old browsers */
