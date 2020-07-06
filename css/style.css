@@ -6,7 +6,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 html, body{
 	font-family: 'Open Sans', sans-serif;
-	background: #FFf;
+	background: #ccccb3;
 	width: 100%;
 }
 
@@ -293,7 +293,7 @@ nav a#pull {
 /*--about--*/
 .about{
 	padding:7em 0;
-	background:#fff;
+	background:#a6a6a6;
 }
 .gallery-head h3 {
 	color: #1F958E;
