@@ -180,7 +180,7 @@ nav a#pull {
 .teams-h{
 	width: 100%; 
 	justify-content: center;
-	padding: 5%;
+	padding: 2%;
 }
 .teams-h h3{
 	margin: 0;
@@ -261,7 +261,7 @@ nav a#pull {
 }
 .banner h1{
 	font-family: 'Open Sans', sans-serif;
-	color:#FFF;
+	color:#000;
 	font-size:3em;
 	line-height: 1.5em;
 	font-weight:400;
@@ -269,7 +269,7 @@ nav a#pull {
 }
 .banner p{
 	font-family: 'Open Sans', sans-serif;
-	color:#FFF;
+	color:#111;
 	font-size:1.9em;
 	line-height: 1.7em;
 	font-weight:100;
