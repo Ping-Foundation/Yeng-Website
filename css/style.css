@@ -1472,3 +1472,87 @@ p.comment-form-author {
 	
 }
 
+/* New join buttons, animate when on hover*/
+.button-join {
+  border-radius: 4px;
+  background-color: #1F958E;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 295px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  float: left;
+  height: 114px;
+  
+}
+
+.button-join span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button-join span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button-join:hover span {
+  padding-right: 25px;
+}
+
+.button-join:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/* App download button*/
+.button-download{
+	border-radius: 4px;
+  background-color: #1F958E;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 60%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  padding: 10px 3px;
+
+
+}
+.button-download span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button-download span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button-download:hover span {
+  padding-right: 25px;
+}
+
+.button-download:hover span:after {
+  opacity: 1;
+  right: 0;
+}
