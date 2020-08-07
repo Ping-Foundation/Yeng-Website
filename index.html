@@ -616,6 +616,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							Must be a valid email address
 						</span>
 					</p>
+
+					<p class="comment-form-author">
+						<label for="author">Phone</label>
+						<input type="text" class="textbox" name="phone" value="Enter your phone..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter your phone...';}">
+						<span id="phone-invalid" style="display:none;color:red">
+							Must be a valid phone phone
+						</span>
+					</p>
 					<p class="comment-form-author">
 						<label for="author">Message</label>
 						<textarea value="Enter your message..." name="message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Enter your message...</textarea>
