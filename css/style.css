@@ -95,6 +95,7 @@ nav a#pull {
 	height: 100%;
 	opacity: 0.2;
 	position: relative;
+	transition: .5s;
 }
 
 .about_tile{
@@ -1525,4 +1526,7 @@ p.comment-form-author {
 }
 .media:hover .fa-youtube{
 	color: #f00;
+}
+.about-img:hover{
+	opacity: .5;
 }
