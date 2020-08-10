@@ -8,6 +8,7 @@ html, body{
 	font-family: 'Open Sans', sans-serif;
 	background: #FFf;
 	width: 100%;
+	cursor: default;
 }
 
 body a{
