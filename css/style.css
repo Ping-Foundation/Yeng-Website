@@ -139,9 +139,11 @@ nav a#pull {
 	margin-bottom: 70px;
 	display: flex;
 	justify-content: space-between;
+	
 }
 #feature {
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	
 }
 .features {
 	margin: 15% 0 0 0;
@@ -236,6 +238,7 @@ nav a#pull {
 .read-more{
 	width: 33%;
 	margin-bottom: 15px;
+	transition: .5s;
 }
 
 
@@ -651,6 +654,7 @@ div#demo {
 	text-decoration: none;
 	border:2px solid #F2685C;
 	color:#fff;
+	transform: translateY(2px);
 }
 .download_grid3 {
 	margin-top: 36%;
@@ -1529,4 +1533,7 @@ p.comment-form-author {
 }
 .about-img:hover{
 	opacity: .5;
+}
+.read-more:hover{
+	transform: translateY(2px);
 }
