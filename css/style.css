@@ -1476,7 +1476,7 @@ p.comment-form-author {
 	background: -webkit-linear-gradient(to right, #93F9B9, #1D976C);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #93F9B9, #1D976C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	
-}
+}/*Social Media Icons*/
 .social-media{
 	display: flex;
 	justify-content: center;
@@ -1499,7 +1499,7 @@ p.comment-form-author {
 .media i{
 	font-size: 35px;
 	color: #777;
-}
+}/*add some effects to the icons*/
 .media:hover{
 	border: 1px solid rgba(0, 0	, 0 , 0.2);
 	box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
@@ -1530,10 +1530,10 @@ p.comment-form-author {
 }
 .media:hover .fa-youtube{
 	color: #f00;
-}
+}/*hover effect in about section*/
 .about-img:hover{
 	opacity: .5;
-}
+}/*hover effect for read more button*/
 .read-more:hover{
 	transform: translateY(2px);
 }
