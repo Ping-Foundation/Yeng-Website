@@ -1472,3 +1472,36 @@ p.comment-form-author {
 	
 }
 
+.social_media_w3layouts {
+    margin: 0 0 0 0;
+}
+
+ ul li {
+	margin: 0;
+	padding: 0.3em;
+    font-size: 1.2em;
+}
+
+ul.social-icons li {
+    list-style: none;
+    display: inline-block;
+}
+
+ul.social-icons li a {
+	padding-inline-start: 0px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    line-height: 34px;
+    background: transparent;
+    border: 2px solid #fff;
+    text-align: center;
+}
+
+ul.social-icons li a:hover {
+      color: #ffc107;
+}
