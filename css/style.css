@@ -261,10 +261,11 @@ nav a#pull {
 }
 .banner h1{
 	font-family: 'Open Sans', sans-serif;
-	color:#FFF;
+	color: #14e497;;
 	font-size:3em;
 	line-height: 1.5em;
 	font-weight:400;
+	font-family: cursive;
 	width:100%;
 }
 .banner p{
@@ -272,8 +273,8 @@ nav a#pull {
 	color:#FFF;
 	font-size:1.9em;
 	line-height: 1.7em;
-	font-weight:100;
 	width:100%;
+	font-weight: bolder;
 }
 .banner-text {
 	margin-top: 7em;
@@ -299,6 +300,7 @@ nav a#pull {
 	color: #1F958E;
 	font-weight: 600;
 	font-size: 2.7em;
+	font-family: cursive;
 	margin: 0;
 	text-transform: uppercase;
 	font-family: 'Open Sans', sans-serif;
@@ -347,6 +349,7 @@ nav a#pull {
 	font-weight: 600;
 	margin-bottom: 2em;
 	width: 100%;
+	font-family: cursive;
 }
 
 .feature-text {
@@ -865,6 +868,7 @@ p.comment-form-author {
 	}
 	.gallery-head h3 {
 		font-size: 2.4em;
+		
 	}
 	#feature {
 		padding: 2.5em 0 0em 0em;
