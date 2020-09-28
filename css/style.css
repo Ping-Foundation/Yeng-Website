@@ -302,7 +302,7 @@ nav a#pull {
 	margin: 0;
 	text-transform: uppercase;
 	font-family: 'Open Sans', sans-serif;
-	
+	 
 }
 .gallery-head span {
 	height: 1px;
@@ -514,7 +514,7 @@ div#demo {
 }
 .Demo-text p {
 	color: #888;
-	font-size: 1.6em;
+	font-size: 1.7em;
 	width: 100%;
 	line-height: 1.7em;
 	font-weight:100;
