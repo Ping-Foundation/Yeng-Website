@@ -9,7 +9,7 @@ Yeng is the next generation mobile app which leverages bleeding edge technology 
 
 * University Platform
 * Peer-to-Peer Chatting
-* Live Session
+* Live Sessions
 * College Platform
 * Public User Interaction
 * Events Notification
@@ -29,7 +29,7 @@ Yeng is the next generation mobile app which leverages bleeding edge technology 
 * Agile-Scrum for Collaborators
 * Git and CI integrations
 
-# OPEN SOURCE
+# OPEN SOURCE Application
 
 Do you feel like there is something more that YOU could contribute to Yeng? Yeng App is fully Open Source! feel free to source your talent to Yeng App through our GitHub repo. You can also raise your valuble suggestions and queries about Yeng App in GitHub and we WILL for sure check them out!
 
