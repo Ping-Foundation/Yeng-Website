@@ -278,6 +278,15 @@ nav a#pull {
 .banner-text {
 	margin-top: 7em;
 }
+.banner-text h1{
+	font-size: 5em;
+	font-weight: 700;
+	color: #1d3a31;
+}
+.banner-text p{
+	font-size: 3em;
+	color: #1d3a31;
+}
 .banner-info{
 	position: absolute;
 	top: 4%;
