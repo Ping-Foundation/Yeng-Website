@@ -258,10 +258,11 @@ nav a#pull {
 	background-size:cover;
 	min-height: 595px;
 	position:relative;
+	
 }
 .banner h1{
 	font-family: 'Open Sans', sans-serif;
-	color:#FFF;
+	color:#1F958E;
 	font-size:3em;
 	line-height: 1.5em;
 	font-weight:400;
@@ -269,20 +270,23 @@ nav a#pull {
 }
 .banner p{
 	font-family: 'Open Sans', sans-serif;
-	color:#FFF;
-	font-size:1.9em;
+	color:#1F958E;
+	font-size:1.4em;
 	line-height: 1.7em;
 	font-weight:100;
 	width:100%;
 }
 .banner-text {
 	margin-top: 7em;
+
+	
 }
 .banner-info{
 	position: absolute;
 	top: 4%;
 	left: -2%;
 	width: 73%;
+	
 }
 .appp {
 	text-align: right;
@@ -1471,4 +1475,5 @@ p.comment-form-author {
 	background: linear-gradient(to right, #93F9B9, #1D976C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	
 }
+
 
