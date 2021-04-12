@@ -210,15 +210,11 @@ nav a#pull {
 	font-weight: 600;
 	color: #1F958E;
 }
-.ca-logo img{
-	margin-top: -79px;
-}
+
 .ca-logo h4{
 	font-size: 2.6em;
 	font-weight: 600;
-	color: #888888;
-	margin-top: -175px;
-	
+	color: #888888;	
 }
 .ca-content p{
 	color: #888888;
@@ -1290,7 +1286,7 @@ p.comment-form-author {
 	 #bodyID .feature-text h2{width: 50%;}
 	 #bodyID .ca-logo h4 {font-size: 1.4em; margin-top: -60px;}
 	 #bodyID .ca-head h3{margin-bottom: 50px;}
-	 #bodyID .ca-content p{font-size: 1em; margin-top: 8%;}
+	 
 	 #bodyID a.read-more{width: 55%;}
 	 #bodyID .team-tile h3 {font-size: 15px;}
 	 #bodyID .team-tile{height: 35px;}
