@@ -44,7 +44,7 @@ body a{
 .top-nav ul li a{
 	color: #fff;
 	padding: 0.23em 0.8em;
-	font-size: 1.0em;
+	font-size: 0.9em;
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -53,10 +53,6 @@ body a{
 
 .top-nav ul li a:hover{
 	color:#2ABF5E;
-}
-.top-nav ul li.active a{
-	color:#d7ff0f;
-	
 }
 .logo_img{
 	width: 143px;
@@ -213,12 +209,22 @@ nav a#pull {
 .ca-logo img{
 	margin-top: -79px;
 }
-.ca-logo h4{
-	font-size: 2.6em;
+.ca-logo h6{
+	font-size: 1.9em;
 	font-weight: 600;
 	color: #888888;
 	margin-top: -175px;
 	
+}
+.img-responsive-logo
+{
+	display: block;
+    max-width: 100%;
+    height: auto;
+    width: 50%;
+    margin-left: 25%;
+    padding-top: 132px;
+    padding-bottom: 193px;
 }
 .ca-content p{
 	color: #888888;
