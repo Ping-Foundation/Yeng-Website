@@ -1020,10 +1020,7 @@ p.comment-form-author {
 		margin: 0 auto;
 	}
 
-	.textview{
-		background: transparent;
-		border-radius: 10px;
-	}
+	
 	
 	p.comment-form-author {margin-bottom: 1em;}
 	.contact-form input[type="text"] {padding: 13px;width: 98%;}
