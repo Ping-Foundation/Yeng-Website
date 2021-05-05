@@ -674,6 +674,7 @@ div#demo {
 	text-align: center;
 	width: 65%;
 	margin: 0 auto;
+	
 }
 p.comment-form-author {
 	margin-bottom:2em;
@@ -1018,6 +1019,12 @@ p.comment-form-author {
 		width: 90%;
 		margin: 0 auto;
 	}
+
+	.textview{
+		background: transparent;
+		border-radius: 10px;
+	}
+	
 	p.comment-form-author {margin-bottom: 1em;}
 	.contact-form input[type="text"] {padding: 13px;width: 98%;}
 	.contact-form textarea {
