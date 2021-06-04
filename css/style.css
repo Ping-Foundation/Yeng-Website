@@ -20,13 +20,14 @@ body a{
 /*-----start-header----*/
 .header{
 	background: #134E5E;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #71B280, #134E5E);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #71B280, #134E5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: -webkit-linear-gradient(to right, #26B558, #055f7a);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right,  #26B558, #055f7a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	position: fixed;
 	z-index: 5;
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
+	opacity: 75%;
 }
 
 .logo{
@@ -100,7 +101,7 @@ nav a#pull {
 	display: flex;
 	align-items: center;
 	height: 270px;
-	background: #1F958E;
+	background: #26B558;;
 	width: 100%;
 	margin-left: 2%;
 	margin-right: 2%;
@@ -157,7 +158,7 @@ nav a#pull {
 	border: 3px solid #fff; 
 }
 .team-tile{
-	background: #80CBC4;
+	background: #10d361;
 	text-align: center;
 	width: 100%;
 	height: auto;
@@ -461,7 +462,7 @@ a.review-btn{
 	-webkit-transition: 0.5s all;
 	-moz-transition: 0.5s all;
 	-o-transition: 0.5s all;
-	background:#1F958E;
+	 background:#086e2c;
 	font-weight: 700;
 }
 .demo .review-btn {
@@ -573,7 +574,7 @@ div#demo {
 	font-family: 'Open Sans', sans-serif;
 }
 .demo-head h3 {
-	color: #1F958E;
+	color: #10d361;;
 	font-weight: 600;
 	font-size:2.7em;
 	margin: 0;
@@ -657,9 +658,9 @@ div#demo {
 /*--contact--*/
 .contact{
 	padding: 3.3em 0 4em 0;
-	background: #134E5E;  /* fallback for old browsers */
+	background: #08d8ab;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #71B280, #134E5E);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #71B280, #134E5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: linear-gradient(to right, #26B550,#055f7a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	
 }
 .contact h3{
@@ -743,8 +744,10 @@ p.comment-form-author {
 }
 /*******footer***/
 .footer {
-	background:#134E5E;
+	background: linear-gradient(to right , #26B550,#055f7a);
 	padding: 1.5em 0;
+	opacity: 95%;
+	
 }
 .copy-right  p{
 	color:#fff;
@@ -1467,8 +1470,8 @@ p.comment-form-author {
 }
 .slider{
 	background: #1D976C;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #93F9B9, #1D976C);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #93F9B9, #1D976C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: -webkit-linear-gradient(to right,  #26B558, #055f7a);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right,  #26B558, #055f7a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	
 }
 
