@@ -28,7 +28,32 @@ body a{
 	display: flex;
 	justify-content: space-between;
 }
+.bor-round
+{
+	border-radius: 35px;
+	border: 0px solid #73AD21;
+	padding: 0px; 
+	
+}
+.one-round
+{
+	margin-top: 5px;
+	border-radius: 15px 50px 30px 5px;
+	border: 0px solid #73AD21;
+}
 
+.zoom {
+	background-color: green;
+	transition: transform .3s;
+	
+  }
+  
+  .zoom:hover {
+	-ms-transform: scale(1.1); /* IE 9 */
+	-webkit-transform: scale(1.1); /* Safari 3-8 */
+	transform: scale(1.08); 
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
 .logo{
 	float: left;
 	margin-top:1em;
