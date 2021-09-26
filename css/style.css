@@ -263,18 +263,20 @@ nav a#pull {
 }
 .banner h1{
 	font-family: 'Open Sans', sans-serif;
-	color:#FFF;
+	/* color:#FFF; */
+	color:#1b4f5e;
 	font-size:3em;
 	line-height: 1.5em;
-	font-weight:400;
+	font-weight:800;
 	width:100%;
 }
 .banner p{
 	font-family: 'Open Sans', sans-serif;
-	color:#FFF;
-	font-size:1.9em;
+	/* color:#FFF; */
+	color:#1c5a6b;
+	font-size:1.7em;
 	line-height: 1.7em;
-	font-weight:100;
+	font-weight:500;
 	width:100%;
 }
 .banner-text {
@@ -1481,5 +1483,9 @@ p.comment-form-author {
    }
    .teams-h h3 {
       font-size: 3vw;
+   }
+   .ca-logo h4 {
+      margin: -100px 0 0 0;
+      font-size: 2em;
    }
 }
