@@ -173,14 +173,16 @@ nav a#pull {
 	align-items: center;
 }
 .team-tile div:nth-child(2){
-	width: 30%;
+   /* width: 30%; */
 	height: 100%;
 	display: flex;
 }
+
 .teams-h{
 	width: 100%; 
 	justify-content: center;
-	padding: 5%;
+	/* padding: 5%; */
+	padding: 1%;
 }
 .teams-h h3{
 	margin: 0;
@@ -1472,3 +1474,12 @@ p.comment-form-author {
 	
 }
 
+@media (min-width:425px) and (max-width:640px) {
+   .demo .review-btn {
+      width:15vw;
+      font-size: 3vw;
+   }
+   .teams-h h3 {
+      font-size: 3vw;
+   }
+}
