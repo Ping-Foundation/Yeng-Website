@@ -1489,3 +1489,16 @@ p.comment-form-author {
       font-size: 2em;
    }
 }
+
+@media (min-width:769px) and (max-width:995px) {
+   .banner-info .appp {
+      top: 25%;
+      width: 40vw;
+  }
+  .banner-text{
+     font-size: 1.1em;
+     position:absolute;
+     top: 10%;
+     left: 55%;
+   }
+}
