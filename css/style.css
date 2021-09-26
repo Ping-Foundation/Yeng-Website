@@ -173,14 +173,16 @@ nav a#pull {
 	align-items: center;
 }
 .team-tile div:nth-child(2){
-	width: 30%;
+   /* width: 30%; */
 	height: 100%;
 	display: flex;
 }
+
 .teams-h{
 	width: 100%; 
 	justify-content: center;
-	padding: 5%;
+	/* padding: 5%; */
+	padding: 1%;
 }
 .teams-h h3{
 	margin: 0;
@@ -261,18 +263,20 @@ nav a#pull {
 }
 .banner h1{
 	font-family: 'Open Sans', sans-serif;
-	color:#FFF;
+	/* color:#FFF; */
+	color:#1b4f5e;
 	font-size:3em;
 	line-height: 1.5em;
-	font-weight:400;
+	font-weight:800;
 	width:100%;
 }
 .banner p{
 	font-family: 'Open Sans', sans-serif;
-	color:#FFF;
-	font-size:1.9em;
+	/* color:#FFF; */
+	color:#1c5a6b;
+	font-size:1.7em;
 	line-height: 1.7em;
-	font-weight:100;
+	font-weight:500;
 	width:100%;
 }
 .banner-text {
@@ -1472,3 +1476,29 @@ p.comment-form-author {
 	
 }
 
+@media (min-width:425px) and (max-width:640px) {
+   .demo .review-btn {
+      width:15vw;
+      font-size: 3vw;
+   }
+   .teams-h h3 {
+      font-size: 3vw;
+   }
+   .ca-logo h4 {
+      margin: -100px 0 0 0;
+      font-size: 2em;
+   }
+}
+
+@media (min-width:769px) and (max-width:995px) {
+   .banner-info .appp {
+      top: 25%;
+      width: 40vw;
+  }
+  .banner-text{
+     font-size: 1.1em;
+     position:absolute;
+     top: 10%;
+     left: 55%;
+   }
+}
