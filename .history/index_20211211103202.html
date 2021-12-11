@@ -1,0 +1,661 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Yeng App | Home :: Crazy Amigos</title>
+	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="js/jquery.min.js"></script>
+	<!-- Custom Theme files -->
+	<link href="css/style.css" rel='stylesheet' type='text/css' />
+	<!-- Custom Theme files -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	</script>
+	<!-- start-smoth-scrolling-->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+	<script type="text/javascript" src="js/google-form.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+				$('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+			});
+		});
+	</script>
+	<!-- start-smoth-scrolling-->
+	<!--- webfonts -->
+	<link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet'
+	 type='text/css'>
+	<!--- webfonts -->
+	<!--start-top-nav-script-->
+	<script>
+		$(function () {
+			var pull = $('#pull');
+			menu = $('nav ul');
+			menuHeight = menu.height();
+			$(pull).on('click', function (e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+			$(window).resize(function () {
+				var w = $(window).width();
+				if (w > 320 && menu.is(':hidden')) {
+					menu.removeAttr('style');
+				}
+			});
+		});
+	</script>
+	<!--//End-top-nav-script-->
+</head>
+
+<body id="bodyID">
+	<!--- start-header-->
+	<div id="home" class="header">
+		<div class="logo">
+			<a href="#">
+				<img class="logo_img" src="images/yeng_letter.png" alt="">
+			</a>
+		</div>
+		<!--start-top-nav-->
+		<nav class="top-nav">
+			<ul class="top-nav">
+				<li class="active">
+					<a href="#home" class="scroll">Home </a>
+				</li>
+				<li>
+					<a href="#about" class="scroll">about</a>
+				</li>
+				<li>
+					<a href="#feature" class="scroll">features</a>
+				</li>
+				<li>
+					<a href="#ca" class="scroll">crazy-amigos</a>
+				</li>
+				<li>
+					<a href="#screenhot" class="scroll">modules</a>
+				</li>
+				<li>
+					<a href="#demo" class="scroll">teams</a>
+				</li>
+				<li>
+					<a href="#download" class="scroll">download</a>
+				</li>
+				<li>
+					<a href="#contact" class="scroll">Contact</a>
+				</li>
+			</ul>
+			<a href="#" id="pull">
+				<img src="images/menu-icon.png" title="menu" />
+			</a>
+		</nav>
+	</div>
+	<!--- //End-header-->
+	<!--- banner -->
+	<div class="banner">
+		<div class="container">
+			<div class="banner-info">
+				<div class=" col-md-6 appp">
+					<img src="images/mbl-app.png" alt="">
+				</div>
+				<div class="col-md-6 banner-text">
+					<h1>Yeng</h1>
+					<p> Built for KTU</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--- banner -->
+	<!--- /strat-About-->
+	<div id="about" class="about">
+		<div class="container">
+			<div class="gallery-head text-center">
+				<h3>ABOUT</h3>
+				<p>Yeng is the next generation mobile app which leverages bleeding edge technology to better enhance your alma mater experience
+					through participation from fellow students, faculties and the general public. Experience and streamline your University
+					life like never before using Yeng.</p>
+			</div>
+			<div class="row text-center about-wrapper">
+				<div class="col-md-4 about_grid about_tile">
+					<img class="about-img" src="images/ab-1.png" alt="">
+					<h3>
+						<strong>It's an university platform,
+							<br>But not only for students</strong>
+					</h3>
+				</div>
+				<div class="col-md-4 about_grid about_tile">
+					<img class="about-img" src="images/ab-2.png" alt="">
+					<h3>
+						<strong>Open source</strong>
+					</h3>
+				</div>
+				<div class="col-md-4 about_grid about_tile effect5">
+					<img class="about-img" src="images/ab-3.png" alt="">
+					<h3>
+						<strong>Free training
+							<br>&amp;
+							<br>Networking</strong>
+					</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!---//End-About->
+	<!-feature -->
+	<div id="feature" class="features">
+		<div class="row">
+			<h3>Features</h3>
+		</div>
+		<div class="container">
+			<div class="Feature">
+				<div class=" col-md-6 feature-text Feature-content">
+					<h2>App Features</h2>
+					<ul class="features">
+						<li>
+							<h4>University Platform</h4>
+						</li>
+						<li>
+							<h4>Peer-to-Peer Chatting</h4>
+						</li>
+						<li>
+							<h4>Live Session</h4>
+						</li>
+						<li>
+							<h4>College Platform</h4>
+						</li>
+						<li>
+							<h4>Public User Interaction</h4>
+						</li>
+						<li>
+							<h4>Events Notification</h4>
+						</li>
+						<li>
+							<h4>Real time University Results</h4>
+						</li>
+						<li>
+							<h4>Entertainments</h4>
+						</li>
+						<li>
+							<h4>Discussion Forums</h4>
+						</li>
+
+					</ul>
+					<!--<h2>Cool marketing slogan Great call to action with nice and clean button</h2>
+							 <p>A slogan is a memorable motto or phrase used in a political, commercial, religious, and other context as a repetitive expression of an idea or purpose.</p>
+							 <a class="slide-btn" href="#">GET IT</a>-->
+
+				</div>
+				<div class="col-md-6 hand-app feature-text Feature-content">
+					<h2>Tech Features</h2>
+					<ul class="features">
+						<li>
+							<h4>Open Source</h4>
+						</li>
+						<li>
+							<h4>Node.Js Express in Server Side</h4>
+						</li>
+						<li>
+							<h4>MongoDB - NoSQL Databse</h4>
+						</li>
+						<li>
+							<h4>Digital-Ocean Cloud Hosting</h4>
+						</li>
+						<li>
+							<h4>Rich Android Native UI</h4>
+						</li>
+						<li>
+							<h4>Load Balancing Using Nginx</h4>
+						</li>
+						<li>
+							<h4>WebRTC Integrations</h4>
+						</li>
+						<li>
+							<h4>Agile-Scrum for Collaborators</h4>
+						</li>
+						<li>
+							<h4>Git and CI integrations</h4>
+						</li>
+					</ul>
+					<!-- <img src="images/hand-iphone.png" alt="">-->
+				</div>
+			</div>
+		</div>
+	</div>
+	<!---//feature -->
+	<!--- /strat-Reviews-->
+	<!--<div id="reviews" class="Reviews">
+		       		<div class="container">
+		       		   <div class="review-head text-center">
+						  <h3>Reviews</h3>
+					    </div>
+		       			<div class="row revies-content text-center">
+		       				<div class="review_grid">
+			       				<div class="col-md-4 review-img1">
+			       					 <img src="images/img-1.jpg" alt="">
+			       				</div>
+			       				<div class="col-md-8 review-text">
+			       					<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec  porttitorcongue dui porttitor leoadipiscing consequat accumsan."</p>
+			       					<span>USER NAME </span>
+			       				</div>
+			       				<div class="clearfix"> </div>
+			       			</div>
+		       				<div class="review_grid">
+			       				<div class="col-md-4 review-img2">
+			       					 <img src="images/img-2.jpg" alt="">
+			       				</div>
+			       				<div class="col-md-8 review-text">
+			       					<p>"Nunc ullamcorper consequat blandit. Ut nibh neque, Donec congue dui porttitor leo varius vitae mollis vel, consectetur et eros".</p>
+			       					<span>USER NAME</span>
+			       				</div>
+			       				<div class="clearfix"> </div>
+			       			</div>
+			       			<div class="review_grid">
+			       				<div class="col-md-4 review-img3">
+			       					 <img src="images/img-3.png" alt="">
+			       				</div>
+			       				<div class="col-md-8 review-text">
+			       					<p>"Nunc ullamcorper consequat blandit. Donec congue dui porttitor leo Ut nibh neque, varius vitae mollis vel, consectetur et eros."</p>
+			       					<span>USER NAME </span>
+			       				</div>
+			       				<div class="clearfix"> </div>
+			       			</div>
+			       			 <a class="review-btn" href="#">READ MORE</a>
+		       			</div>
+		       			<div class="clearfix"> </div>
+		       		</div>
+		       	</div>-->
+	<!---//End-Reviews-->
+	<!--- Slider Starts Here -->
+	<div id="ca" class="CA">
+		<div class="container">
+			<div class="ca-head text-center">
+				<h3>CRAZY AMIGOS</h3>
+			</div>
+			<div class="row text-center">
+				<div class="col-md-8 col-md-offset-2 col-xs-12">
+					<div class="ca-logo">
+						<img src="images/ca-logo.png" class="img-responsive">
+						<h4>"Finding Empty Space"</h4>
+					</div>
+					<div class="ca-content">
+						<p>Yeng is the brainchild of Crazy Amigos, a team of tech professionals, students and aficionados with the mission to
+							make the world a better place by driving the youth to excellence. Be part of Crazy Amigos to get motivated by our
+							amigos and explore open source in all it's beauty...</p>
+					</div>
+					<a class="review-btn read-more" href="http://crazyamigos.io">READ MORE</a>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<div id="screenhot" class="slider">
+		<div class="container">
+			<!-- testmonials -->
+			<h3>MODULES</h3>
+			<div class="test-monials">
+				<!--sreen-gallery-cursual-->
+				<div class="sreen-gallery-cursual">
+					<!-- requried-jsfiles-for owl -->
+					<link href="css/owl.carousel.css" rel="stylesheet">
+					<script src="js/owl.carousel.js"></script>
+					<script>
+						$(document).ready(function () {
+							$("#owl-demo").owlCarousel({
+								items: 1,
+								lazyLoad: true,
+								autoPlay: true,
+								navigation: false,
+								navigationText: false,
+								pagination: true,
+							});
+						});
+					</script>
+					<!-- //requried-jsfiles-for owl -->
+					<!-- start content_slider -->
+					<div id="owl-demo" class="owl-carousel">
+						<div class="item">
+							<div class="test-monial">
+								<img src="images/Screen1.png" class="img-responsive" alt="" />
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="test-monial">
+								<img src="images/Screen2.png" class="img-responsive" alt="" />
+							</div>
+						</div>
+						<div class="item">
+							<div class="test-monial">
+								<img src="images/Screen3.png" class="img-responsive" alt="" />
+							</div>
+						</div>
+						<div class="item">
+							<div class="test-monial">
+								<img src="images/Screen4.png" class="img-responsive" alt="" />
+							</div>
+						</div>
+						<div class="item">
+							<div class="test-monial">
+								<img src="images/Screen5.png" class="img-responsive" alt="" />
+							</div>
+						</div>
+					</div>
+					<!--//sreen-gallery-cursual-->
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- testmonials -->
+	<!--- /strat-demo-->
+	<div id="demo" class="demo">
+		<div class="container">
+			<div class="demo-head text-center">
+				<h3>TEAMS</h3>
+			</div>
+			<!--	<div class="row Demo text-center">
+		       				<div class="demo-grid">
+			       				<div class="col-md-5 demo-img1">
+			       					 <img src="images/ab-1.png" alt="">
+			       				</div>
+			       				<div class="col-md-7 Demo-text">
+			       					<p>Just some information about your demo app or something like that. Maybe some info about components which includes in trial (demo) application. I hope you will like my landing page template. I made it for you. Enjoy!</p>
+			       				</div>
+			       				<div class="clearfix"> </div>
+			       			</div>
+		       				<div class="demo-grid">
+			       				<div class="col-md-5 demo-img2">
+			       					 <img src="images/ab-2.png" alt="">
+			       				</div>
+			       				<div class="col-md-7 button">
+			       					 <a class="demo-btn" href="#">View Demo</a>
+			       				</div>
+			       				<div class="clearfix"> </div>
+			       			</div>
+			       			<div class="demo-grid">
+			       				<div class="col-md-5 demo-img3">
+			       					 <img src="images/ab-3.png" alt="">
+			       				</div>
+			       				<div class="col-md-7 demo-info">
+			       					<div class="col-md-6 demo-text">
+			       						<h4>What's in the Demo?</h4>
+			       						<p>1. Useful Components </p>
+			       						<p>2.Samples</p>
+			       						<p>3.Pictures</p>
+			       						
+			       					</div>
+			       						<div class="col-md-6 demo-text">
+			       							<h4>What's in the Version?</h4>
+				       						<p>4.All needed Componants </p>
+				       						<p>5.Samples</p>
+				       						<p>6.Pictures</p>
+			       						</div>
+			       				</div>
+			       				<div class="clearfix"> </div>
+			       			</div>
+			       			
+		       			</div>-->
+			<div class="row">
+				<div class="col-md-4 col-xs-6">
+					<div class="about_grid team-tile">
+						<div class="teams-h">
+							<h3>
+								<strong>Android</strong>
+							</h3>
+						</div>
+						<div>
+							<a href="https://goo.gl/forms/0yeb7s1HPTebXpRh2">
+								<button class="review-btn join-btn">Join</button>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-xs-6">
+					<div class="about_grid team-tile">
+						<div class="teams-h">
+							<h3>
+								<strong>Server Development</strong>
+							</h3>
+						</div>
+						<div>
+							<a href="https://goo.gl/forms/BrKEPtvJAO7Sfkwu2">
+								<button class="review-btn join-btn">Join</button>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-xs-6">
+					<div class="about_grid team-tile">
+						<div class="teams-h">
+							<h3>
+								<strong>UI/UX Designers</strong>
+							</h3>
+						</div>
+						<div>
+							<a href="https://goo.gl/forms/X0SUzUvyl0AEIUNi2">
+								<button class="review-btn join-btn">Join</button>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-xs-6">
+					<div class="about_grid team-tile">
+						<div class="teams-h">
+							<h3>
+								<strong>Security</strong>
+							</h3>
+						</div>
+						<div>
+							<a href="https://goo.gl/forms/zHY3LR3oDvsbg8no2">
+								<button class="review-btn join-btn">Join</button>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-xs-6">
+					<div class="about_grid team-tile">
+						<div class="teams-h">
+							<h3>
+								<strong>iOS</strong>
+							</h3>
+						</div>
+						<div>
+							<a href="https://goo.gl/forms/T86PWGrDBV7D8raD3">
+								<button class="review-btn join-btn">Join</button>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-xs-6">
+					<div class="about_grid team-tile">
+						<div class="teams-h">
+							<h3>
+								<strong>Digital Marketing</strong>
+							</h3>
+						</div>
+						<div>
+							<a href="https://goo.gl/forms/RhOvnap60O5AfAnE2">
+								<button class="review-btn join-btn">Join</button>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-xs-6">
+					<div class="about_grid team-tile">
+						<div class="teams-h">
+							<h3>
+								<strong>Product</strong>
+							</h3>
+						</div>
+						<div>
+							<a href="#">
+								<button class="review-btn join-btn">Join</button>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-xs-6">
+					<div class="about_grid team-tile">
+						<div class="teams-h">
+							<h3>
+								<strong>Data Analyst</strong>
+							</h3>
+						</div>
+						<div>
+							<a href="https://goo.gl/forms/3g3pRVTJ1DVxQK5i1">
+								<button class="review-btn join-btn">Join</button>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-xs-6">
+					<div class="about_grid team-tile">
+						<div class="teams-h">
+							<h3>
+								<strong>Project Coordinators</strong>
+							</h3>
+						</div>
+						<div>
+							<a href="https://goo.gl/forms/QjUJXCE9GgZ9Jgzc2">
+								<button class="review-btn join-btn">Join</button>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-xs-6">
+					<div class="about_grid team-tile">
+						<div class="teams-h">
+							<h3>
+								<strong>Testing</strong>
+							</h3>
+						</div>
+						<div>
+							<a href="https://goo.gl/forms/DHWw4dnrIRwuTIB12">
+								<button class="review-btn join-btn">Join</button>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-xs-6">
+					<div class="about_grid team-tile">
+						<div class="teams-h">
+							<h3>
+								<strong>Content Writers</strong>
+							</h3>
+						</div>
+						<div>
+							<a href="https://goo.gl/forms/y40e5tupGJEcBJFO2">
+								<button class="review-btn join-btn">Join</button>
+							</a>
+						</div>
+
+					</div>
+				</div>
+				<div class="col-md-4 col-xs-6">
+					<div class="about_grid team-tile">
+						<div class="teams-h">
+							<h3>
+								<strong>Machine Learning</strong>
+							</h3>
+						</div>
+						<div>
+							<a href="https://goo.gl/forms/er2kXWglyG2Gu6se2">
+								<button class="review-btn join-btn">Join</button>
+							</a>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!---//End-Reviews-->
+	<!--- /strat-Download-->
+	<div id="download" class="download">
+		<div class="container">
+			<div class=" Downloads">
+				<div class=" download_left">
+					<h3>DOWNLOAD</h3>
+					<p>Get Yeng app in your android mobile by clicking the link below (iOS app coming soon)</p>
+					<a class="Down-btn" href="#">DOWNLOAD</a>
+				</div>
+				<div class="download_right">
+					<h3>Open Source</h3>
+					<p> Do you feel like there is something more that YOU could contribute to Yeng? Yeng App is fully Open Source! feel free to
+						source your talent to Yeng App through our GitHub repo. You can also raise your valuble suggestions and queries about Yeng
+						App in GitHub and we WILL for sure check them out!</p>
+					<a class="Down-btn" href="https://github.com/Crazy-Amigos/Yeng" target="_blank">Get Source</a>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!---//End-Download-->
+	<!---/start-contact-->
+	<div class="contact" id="contact">
+		<div class="container">
+			<h3>CONTACT</h3>
+			<div class="contact-form">
+				<form method="POST" id="webform" action="https://script.google.com/macros/s/AKfycbz-wy2uctcS7XMnFJ4hfqqOAOILAE6LZGPrWiZ7IxTekesxhO0/exec">
+					<p class="comment-form-author">
+						<label for="author"> Name</label>
+						<input type="text" class="textbox" name="name" value="Enter your name..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter your name...';}">
+					</p>
+					<p class="comment-form-author">
+						<label for="author">Email</label>
+						<input type="text" class="textbox" name="email" value="Enter your email..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter your email...';}">
+						<span id="email-invalid" style="display:none;color:red">
+							Must be a valid email address
+						</span>
+					</p>
+					<p class="comment-form-author">
+						<label for="author">Message</label>
+						<textarea value="Enter your message..." name="message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Enter your message...</textarea>
+					</p>
+					<input name="submit" type="submit" id="submit" value="Submit">
+				</form>
+				<!-- Customise the Thankyou Message People See when they submit the form: -->
+				<div style="display:none;" id="thankyou_message">
+					<h2 style="color:yellow">
+						<em>Thanks</em> you for submitting our Contact form! We will get back to you soon!</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!---//end-contact-->
+	<!--/start-footert-->
+	<div class="footer">
+		<div class="container">
+			<div class="copy-right">
+				<p> &copy; 2020 Ping Foundation</p>
+			</div>
+		</div>
+	</div>
+	<!---//end-footert-->
+	<a href="#" id="toTop" style="display: block;">
+		<span id="toTopHover" style="opacity: 1;"> </span>
+	</a>
+
+	<script type="text/javascript">
+		$(document).ready(function () {
+			// var defaults = {
+			// 	containerID: 'toTop', // fading element id
+			// 	containerHoverID: 'toTopHover', // fading element hover id
+			// 	scrollSpeed: 1200,
+			// 	easingType: 'linear'
+			// };
+			$().UItoTop({ easingType: 'easeOutQuart' });
+		});
+	</script>
+</body>
+
+</html>
