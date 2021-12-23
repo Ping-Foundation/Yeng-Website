@@ -27,6 +27,7 @@ body a{
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
+	box-shadow: 5px 8px 18px darkslategrey;
 }
 
 .logo{
