@@ -54,14 +54,17 @@ body a{
 .top-nav ul li a:hover{
 	color:#2ABF5E;
 }
+
 .top-nav ul li.active a{
-	color:#d7ff0f;
+	color:#fff;
 	
 }
 .logo_img{
 	width: 143px;
 	height: 51px;
+
 }
+
 .logo a{
 	display:block;
 }
@@ -1518,3 +1521,4 @@ p.comment-form-author {
 	
 	  text-align: center;
   }
+ 
