@@ -54,14 +54,17 @@ body a{
 .top-nav ul li a:hover{
 	color:#2ABF5E;
 }
+
 .top-nav ul li.active a{
-	color:#d7ff0f;
+	color:#fff;
 	
 }
 .logo_img{
 	width: 143px;
 	height: 51px;
+
 }
+
 .logo a{
 	display:block;
 }
@@ -143,6 +146,7 @@ nav a#pull {
 }
 .features {
 	margin: 15% 0 0 0;
+	color: darkblue;
 }
 .features li{
 	list-style-image: url("../images/circle.png");
@@ -261,7 +265,7 @@ nav a#pull {
 }
 .banner h1{
 	font-family: 'Open Sans', sans-serif;
-	color:#FFF;
+	color: green;
 	font-size:3em;
 	line-height: 1.5em;
 	font-weight:400;
@@ -269,7 +273,7 @@ nav a#pull {
 }
 .banner p{
 	font-family: 'Open Sans', sans-serif;
-	color:#FFF;
+	color: green;
 	font-size:1.9em;
 	line-height: 1.7em;
 	font-weight:100;
@@ -354,7 +358,7 @@ nav a#pull {
 }
 .feature-text h2 {
 	text-align: left;
-	color: #fff;
+	color: lightseagreen;
 	font-size: 2.2em;
 	font-weight: 500;
 	width: 88%;
@@ -1471,4 +1475,50 @@ p.comment-form-author {
 	background: linear-gradient(to right, #93F9B9, #1D976C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	
 }
-
+/* Style all font awesome icons */
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+	opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+	background: #3B5998;
+	color: white;
+	text-align: center;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+	background: #55ACEE;
+	color: white;
+  }
+  .fa-linkedin {
+	background: #007bb5;
+	color: white;
+  }
+  
+  .fa-youtube {
+	background: #bb0000;
+	color: white;
+  }
+  
+  .fa-instagram {
+	background: #125688;
+	color: white;
+  }
+  .social-media{
+	
+	  text-align: center;
+  }
+ 
