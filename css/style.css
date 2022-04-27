@@ -664,11 +664,14 @@ div#demo {
 }
 .contact h3{
 	text-align: center;
-	font-size: 2.7em;
+	font-size: 2.4em;
 	text-transform: uppercase;
 	color: #fff;
 	font-weight: 600;
 	margin-bottom: 1em;
+	color: #2e4938;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 .contact-form {
 	text-align: center;
@@ -677,14 +680,17 @@ div#demo {
 }
 p.comment-form-author {
 	margin-bottom:2em;
+	
 }
 .contact-form label{
 	display: block;
-	font-size: 1.6em;
+	font-size: 1.4em;
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: 100;
 	text-align: left;
+	color: #fff;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 .contact-form input[type="text"] {
 	padding:15px;
@@ -697,12 +703,14 @@ p.comment-form-author {
 	outline: none;
 	display: block;
 	font-family: 'Open Sans', sans-serif;
+	border-radius: 7px;
 }
 .contact-form textarea {
 	padding:10px;
 	display: block;
 	width:95%;
 	background:#fff;
+	border-radius: 10px;
 	border:none;
 	outline: none;
 	color:#999;
@@ -735,10 +743,12 @@ p.comment-form-author {
 	font-weight: 700;
 	width:37%;
 	outline: none;
+	border-radius: 15px;
 }
 .contact-form input[type="submit"]:hover{
 	background: none;
 	border: 2px solid #fff;
+	border: radius 20px;;
 	color:#fff;
 }
 /*******footer***/
@@ -1470,5 +1480,8 @@ p.comment-form-author {
 	background: -webkit-linear-gradient(to right, #93F9B9, #1D976C);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #93F9B9, #1D976C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	
+}
+.textbox{
+
 }
 
