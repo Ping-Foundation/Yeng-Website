@@ -4,6 +4,10 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+html{
+	scroll-behavior: smooth;
+
+}
 html, body{
 	font-family: 'Open Sans', sans-serif;
 	background: #FFf;
@@ -414,13 +418,13 @@ a.review-btn{
 	-moz-border-radius: 50%;
 }
 .review-img1 img{
-	border:6px solid#2ABF5E;
+	border:6px solid #2ABF5E;
 }
 .review-img2 img{
-	border:6px solid#F2BA13;
+	border:6px solid #F2BA13;
 }
 .review-img3 img{
-	border:6px solid#F2685C;
+	border:6px solid #F2685C;
 }
 .review-text {
 	margin-top: 4em;
@@ -742,6 +746,7 @@ p.comment-form-author {
 	color:#fff;
 }
 /*******footer***/
+
 .footer {
 	background:#134E5E;
 	padding: 1.5em 0;
@@ -791,6 +796,90 @@ p.comment-form-author {
 	-moz-opacity: 0;
 	filter: alpha(opacity=0);
 }
+
+/* updated footer-section starts */
+
+.footer {
+	min-height: auto;
+	padding-top: 0;
+  }
+  .footer .box-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+  }
+  .footer .box-container .box {
+	flex: 1 1 25rem;
+	margin: 2.5rem;
+  }
+  .footer .box-container .box h3 {
+	font-size: 2.5rem;
+	color: #fff;
+	padding-bottom: 1rem;
+	font-weight: normal;
+  }
+  .footer .box-container .box p {
+	font-size: 1.5rem;
+	color: #ccc;
+	padding: 0.7rem 0;
+	text-transform: none;
+  }
+  .footer .box-container .box p i {
+	padding-right: 1rem;
+	color: #fff;
+  }
+  .footer .box-container .box a {
+	font-size: 1.5rem;
+	color: rgb(238, 238, 238);
+	padding: 0.3rem 0;
+	display: block;
+  }
+  .footer .box-container .box a:hover {
+	color: #71B280;
+  }
+  .footer .box-container .box .share {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 1rem 0;
+  }
+  .footer .box-container .box .share a {
+	height: 4rem;
+	width: 4rem;
+	padding: 1rem;
+	text-align: center;
+	border-radius: 5rem;
+	font-size: 1.7rem;
+	margin-right: 1rem;
+	transition: 0.2s;
+	background: rgb(230, 230, 230);
+	color: #02094b;
+	border: none;
+  }
+  .footer .box-container .box .share a:hover {
+	background: transparent;
+	transform: scale(0.98);
+	border: 0.1rem solid rgb(180, 178, 178);
+	color: #71B280;
+  }
+  .footer .credit {
+	padding: 1rem 0 0 0;
+	text-align: center;
+	font-size: 1.5rem;
+	font-family: "Nunito", sans-serif;
+	font-weight: 600;
+	color: #fff;
+	border-top: 0.1rem solid #fff3;
+  }
+  .footer .credit a {
+	color: #ffae00;
+  }
+  .footer .fa {
+	margin: 0 0.3rem;
+	font-size: 1.5rem;
+	animation: pound 0.35s infinite alternate;
+  }
+  /* footer ends */
+
 /*---- responsive-design -----*/
 @media(max-width:1440px){
 	.top-nav ul li a {padding: 0px 0.2em;color:#ffffff;}
@@ -1055,7 +1144,7 @@ p.comment-form-author {
 		height: auto;
 		margin:1.3em 0;
 		background: #fff;
-		border: 1px solid#E8E8E9;
+		border: 1px solid #E8E8E9;
 	}
 	nav a#pull {
 		display: block;
@@ -1350,9 +1439,9 @@ p.comment-form-author {
 		overflow: hidden;
 		height: 53px;
 	}
-	.review-img3 img {border: 3px solid#F2685C;}
-	.review-img2 img {border: 4px solid#F2BA13;}
-	.review-img1 img {border: 3px solid#2ABF5E;}
+	.review-img3 img {border: 3px solid #F2685C;}
+	.review-img2 img {border: 4px solid #F2BA13;}
+	.review-img1 img {border: 3px solid #2ABF5E;}
 	.review-text span {font-size: 1em;}
 	.demo-img1 img,.demo-img2 img,.demo-img3 img {width: 47%;}
 	.Demo-text p {
