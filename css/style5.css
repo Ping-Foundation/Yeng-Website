@@ -1,0 +1,44 @@
+nav1{
+    position:fixed;
+    width: 60px;
+    margin-top: 200px;
+    z-index :99;
+    opacity :0;
+}
+body:hover nav1{
+    opacity: 1;
+}
+nav1 li{
+    height:45px;
+    position:relative;
+    border-radius: 50%;
+    padding-left: 0px;
+
+
+}
+nav1 li a{
+    display:block;
+    text-decoration: none;
+    padding-left: 0px;
+
+}
+
+
+nav1 li a i{
+    position:absolute;
+    top:4px;
+    font-size: 34px;
+}
+nav li:nth-child(1)a{
+    background-color: ;
+}
+
+
+ 
+
+ /*Scroll stuffs*/
+
+ .scroll-down nav1{
+     transform: translate3d(0, -100%, 0);
+ }
+
