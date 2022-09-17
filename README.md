@@ -38,4 +38,4 @@ Do you feel like there is something more that YOU could contribute to Yeng? Yeng
 Site will available in this domain : https://ping-foundation.github.io/Yeng-Website/
 
 
-                                                        **©** **2020 PING FOUNDATION**
+                                                        **©** **2022 PING FOUNDATION**
