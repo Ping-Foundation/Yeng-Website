@@ -166,6 +166,7 @@ nav a#pull {
 	flex-flow: row nowrap;
 	color: #fff;
 	margin: 2% 0 2% 0;
+	border-radius: 2em;
 	
 }
 .team-tile div{
@@ -463,6 +464,7 @@ a.review-btn{
 	-o-transition: 0.5s all;
 	background:#1F958E;
 	font-weight: 700;
+	border-radius: 1em;
 }
 .demo .review-btn {
 	padding: 5%;
