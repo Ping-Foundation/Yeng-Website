@@ -28,7 +28,6 @@ body a{
 	display: flex;
 	justify-content: space-between;
 }
-
 .logo{
 	float: left;
 	margin-top:1em;
@@ -106,7 +105,7 @@ nav a#pull {
 	margin-right: 2%;
 	box-shadow: 10px 15px 5px #E5F0E7;
 	color: #fff;
-	
+	border-radius: 29px;
 }
 .about_tile h3{
 	position: absolute;
@@ -313,7 +312,7 @@ nav a#pull {
 }
 .gallery-head p {
 	color: #888888;
-	margin: 0.7em auto;
+	margin: 8.7em auto;
 	font-size: 1.3em;
 	line-height: 1.8em;
 	font-family: 'Open Sans', sans-serif;
