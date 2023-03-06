@@ -261,7 +261,7 @@ nav a#pull {
 }
 .banner h1{
 	font-family: 'Open Sans', sans-serif;
-	color:#FFF;
+	color:rgb(20, 19, 19);
 	font-size:3em;
 	line-height: 1.5em;
 	font-weight:400;
@@ -269,7 +269,7 @@ nav a#pull {
 }
 .banner p{
 	font-family: 'Open Sans', sans-serif;
-	color:#FFF;
+	color:rgb(3, 3, 3);
 	font-size:1.9em;
 	line-height: 1.7em;
 	font-weight:100;
