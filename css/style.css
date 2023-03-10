@@ -829,6 +829,7 @@ p.comment-form-author {
 	}
 	.banner h1 {
 		font-size: 2.6em;
+		color: rgb(20, 19, 19);
 	}
 	.banner {
 		min-height: 594px;
@@ -854,6 +855,7 @@ p.comment-form-author {
 	.banner p {
 		font-size: 1.5em;
 		width: 100%;
+		color: rgb(20, 19, 19);
 	}
 	.about {
 		padding: 5em 0;
