@@ -42,20 +42,38 @@ body a{
 .top-nav { width: 65%;}
 .top-nav ul {width: 100%;}
 .top-nav ul li a{
-	color: #fff;
+	position: relative;
+	color: #d7ff0f;
 	padding: 0.23em 0.8em;
 	font-size: 1.0em;
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 700;
 	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
 }
-
+.top-nav ul li a::before{
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 2px;
+	top: 3.5rem;
+	left: 0;
+	background: #fff;
+	transform: scaleX(0);
+	transform-origin: top;
+	transition: 0.5s;
+}
+.top-nav ul li a:hover::before,
+.top-nav ul li a.active::before{
+	transform: scaleX(1);
+	transform-origin: bottom;
+}
 .top-nav ul li a:hover{
-	color:#2ABF5E;
+	color:#fff;
 }
 .top-nav ul li.active a{
-	color:#d7ff0f;
+	color:#fff;
 	
 }
 .logo_img{
