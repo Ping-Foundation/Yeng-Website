@@ -1,0 +1,7 @@
+click==8.0.0
+Flask==2.0.0
+itsdangerous==2.0.0
+Jinja2==3.0.0
+MarkupSafe==2.0.0
+pyjokes==0.6.0
+Werkzeug==2.0.0
