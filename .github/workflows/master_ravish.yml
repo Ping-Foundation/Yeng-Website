@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'ravish'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A87EC028698A40438156445B19000A10 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4CDEC6B5F2164DE3BAEA2FCD58218D94 }}
