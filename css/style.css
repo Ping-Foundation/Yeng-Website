@@ -56,7 +56,7 @@ body a{
 }
 .top-nav ul li.active a{
 	color:#d7ff0f;
-	
+
 }
 .logo_img{
 	width: 143px;
@@ -275,8 +275,17 @@ nav a#pull {
 	font-weight:100;
 	width:100%;
 }
+
 .banner-text {
-	margin-top: 7em;
+	margin-top: 11em;
+	padding-left: 4rem;
+}
+.banner-text h1{
+ color: #134E5E;
+}
+.banner-text p{
+color: #1F958E;
+font-weight: 400;
 }
 .banner-info{
 	position: absolute;
