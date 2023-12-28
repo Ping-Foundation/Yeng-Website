@@ -636,7 +636,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="footer">
 		<div class="container">
 			<div class="copy-right">
-				<p> &copy; 2020 Ping Foundation</p>
+				<p> &copy; <span id="year"></span> Ping Foundation</p>
 			</div>
 		</div>
 	</div>
@@ -646,6 +646,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</a>
 
 	<script type="text/javascript">
+		const d = new Date();
+		let year = d.getFullYear();
+		document.getElementById("year").innerHTML = year;
 		$(document).ready(function () {
 			// var defaults = {
 			// 	containerID: 'toTop', // fading element id
