@@ -28,7 +28,18 @@ body a{
 	display: flex;
 	justify-content: space-between;
 }
-
+#yeng-head{
+	color: #1b829e;
+	font-family: 'Times New Roman';
+	font-weight: 1000;
+	text-shadow: 2px 2px 4px #040d14;
+}
+#built-head{
+	color: #134E5E;
+	font-family: 'Domine';
+	font-weight: 800;
+	text-shadow: 1px 1px 2px #040d14;
+}
 .logo{
 	float: left;
 	margin-top:1em;
