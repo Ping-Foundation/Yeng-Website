@@ -20,8 +20,6 @@ body a{
 /*-----start-header----*/
 .header{
 	background: #134E5E;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #71B280, #134E5E);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #71B280, #134E5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	position: fixed;
 	z-index: 5;
 	width: 100%;
@@ -55,7 +53,7 @@ body a{
 	color:#2ABF5E;
 }
 .top-nav ul li.active a{
-	color:#d7ff0f;
+	color:#64e081;
 	
 }
 .logo_img{
@@ -106,6 +104,7 @@ nav a#pull {
 	margin-right: 2%;
 	box-shadow: 10px 15px 5px #E5F0E7;
 	color: #fff;
+	border-radius: 24px;
 	
 }
 .about_tile h3{
@@ -166,6 +165,7 @@ nav a#pull {
 	flex-flow: row nowrap;
 	color: #fff;
 	margin: 2% 0 2% 0;
+	border-radius: 20px;
 	
 }
 .team-tile div{
@@ -188,6 +188,7 @@ nav a#pull {
 .join-btn{
 	font-weight: 700;
 	border: none;
+	border-radius: 20px;
 }
 
 .design{
@@ -254,11 +255,17 @@ nav a#pull {
 }
 /*----- banner -----*/
 .banner{
-	background:url(../images/bg.jpg) no-repeat 0px 0px;
+	background:url(https://i.pinimg.com/736x/d1/db/83/d1db836002d1d3c0c348a1f635dc8405.jpg) no-repeat 0px 0px;
 	background-size:cover;
-	min-height: 595px;
+	min-height: 100vh;
 	position:relative;
 }
+
+.banner .container {
+	width: 100%;
+	height: 100vh;
+}
+
 .banner h1{
 	font-family: 'Open Sans', sans-serif;
 	color:#FFF;
@@ -288,7 +295,7 @@ nav a#pull {
 	text-align: right;
 }
 .appp img {
-	width: 71%;
+	width: 60%;
 }
 /*--about--*/
 .about{
