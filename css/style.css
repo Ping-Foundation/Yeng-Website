@@ -746,6 +746,17 @@ p.comment-form-author {
 	background:#134E5E;
 	padding: 1.5em 0;
 }
+.socials{
+	padding-left: 0;
+	display: flex;
+	justify-content: left;
+	height: 1.7em;
+	padding-right: 1.5em;
+}
+.socials a:focus{
+	outline:auto;
+	outline-style: none;
+}
 .copy-right  p{
 	color:#fff;
 	font-size:0.953em;
